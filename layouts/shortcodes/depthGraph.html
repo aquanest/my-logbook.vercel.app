@@ -1,0 +1,49 @@
+{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
+{{ $id := index (seq 999 | shuffle) 1 }}
+
+<div style="width: 90%; height: auto; margin: 0 auto">
+    <canvas id="{{ $id }}"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('{{ $id }}').getContext('2d');
+
+    // Set X scale
+    var labels = ["0:00"]
+    for (const [key, value] of Object.entries({{ $dataJ.response.divelog.dive_profiles }})) {
+      var minutes = Math.floor(value.profile_time / 60)
+      var seconds = String(value.profile_time % 60).padStart(2, "0")
+      labels.push(minutes + ":" + seconds)
+    }
+
+    // Set Y scale
+    var pressures = [0]
+    var basePressure = {{ $dataJ.response.divelog.altitude }} ?? 1013
+    for (const [key, value] of Object.entries({{ $dataJ.response.divelog.dive_profiles }})) {
+      pressures.push((0 - value.pressure * 10 + basePressure * 10) / 100 / 10)
+    }
+
+    // Render Graph
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Depth (m)',
+                data: pressures,
+                fill: true,
+                backgroundColor: '#5eb8ffAB',
+                borderColor: '#5eb8ffFF',
+                borderWidth: 1,
+                pointRadius: 0.1,
+                pointHitRadius: 768,
+            }]
+        },
+        options: {
+            tooltips: {
+                mode: 'nearest',
+            },
+        }
+    });
+</script>
