@@ -2,7 +2,7 @@
 
 .PHONY: build
 build:
-	hugo --gc
+	hugo -D --gc
 
 .PHONY: release
 release:
