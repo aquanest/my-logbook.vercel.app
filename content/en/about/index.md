@@ -8,6 +8,8 @@ image = "about.jpg"
 
 umatare5 (Koshu T.)
 
+{{< github >}}{{< instagram >}}
+
 - umatare5 is an SRE working in Japan.
 
   He has more than 10 years of industry experience, especially with in-depth knowledge of the networking.

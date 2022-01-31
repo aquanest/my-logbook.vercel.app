@@ -1,70 +1,70 @@
-baseURL = "https://dives.dev"
-title = "dives.dev - My Dive Logbook"
-theme = "blist"
-author = "umatare5"
-languageCode = "en-us"
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
-hasCJKLanguage = true
+author = "umatare5"
+baseURL = "https://dives.dev"
 canonifyurls = true
+hasCJKLanguage = true
+languageCode = "en-us"
 metaDataFormat = "yaml"
+theme = "blist"
+title = "My Logbook"
 
 [languages]
-  [languages.en]
-    contentDir = "content/en" #English
-    weight = 1
-    languageName = "English"
-    [languages.en.params]
-      introTitle = "Hi 👋 I'm umatare5"
-      introSubtitle = "This is my dive logbook."
-      introPhoto = "/me-128x128.png"
-    [[languages.en.menu.main]]
-        name = "Divelog"
-        url = "blog"
-        weight = 1
+[languages.en]
+contentDir = "content/en" #English
+languageName = "English" 
+weight = 1 
+[languages.en.params]
+introPhoto = "/me-128x128.png"
+introSubtitle = "This is a logbook records my scuba divings."
+introTitle = "Hi 👋 I'm umatare5"
+[[languages.en.menu.main]]
+name = "Divelog"
+url = "blog"
+weight = 1
 
-    [[languages.en.menu.main]]
-        name = "About"
-        url = "about"
-        weight = 2
+[[languages.en.menu.main]]
+name = "About"
+url = "about"
+weight = 2
 
 [params]
-  # Enable the darkmode toggle in header
-  darkModeToggle = true
+# Enable the darkmode toggle in header
+darkModeToggle = true
 
-  # Enable search in header
-  enableSearch = true
+# Enable search in header
+enableSearch = true
 
-  # Custom copyright - optional
-  copyright = "Copyright © 2022 - umatare5 and Katheryn Fox · All rights reserved"
-  favicon = "/favicon.svg"
+# Custom copyright - optional
+copyright = "Copyright © 2022 - umatare5 and Katheryn Fox · All rights reserved"
+favicon = "/favicon.svg"
 
-  # Color for the intro details and social links block, not applicable for dark mode
-  # Supported values: Any color from TailwindCSS default colors
-  # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+# Color for the intro details and social links block, not applicable for dark mode
+# Supported values: Any color from TailwindCSS default colors
+# Reference: https://tailwindcss.com/docs/customizing-colors
+ascentColor = "bg-blue-100"
 
 [params.homepage.social]
-  # Global params common for both languages
-  title = ""
-  description = ""
-  github = "https://github.com/umatare5"
-  instagram = "https://www.instagram.com/um1vva1120"
+# Global params common for both languages
+description = "Repos related to this page and travel memories"
+github = "https://github.com/umatare5"
+instagram = "https://www.instagram.com/um1vva1120"
+title = "Follow Me"
 
 [[menu.main]]
-  name = "About"
-  url = "/about"
+name = "About"
+url = "/about"
 
 [build]
-  writeStats = true
+writeStats = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 # syntax highlight settings
 [markup]
-  [markup.highlight]
-    style = "dracula"
-  [markup.goldmark.renderer]
-    # Enable to include inline HTML
-    unsafe = true
+[markup.highlight]
+style = "dracula"
+[markup.goldmark.renderer]
+# Enable to include inline HTML
+unsafe = true

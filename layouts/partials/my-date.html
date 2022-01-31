@@ -1,0 +1,17 @@
+{{/*
+  Import from v1.4.0 (https://github.com/apvarun/blist-hugo-theme/blob/a93291c35d26fa74bcb7111661264c66f7bee660/layouts/partials/date.html)
+*/}}
+
+{{ if eq "de" .language.Lang }}
+  {{ if eq "long" .format }}
+    {{ .date.Format "2006"}}/{{ i18n (.date.Format "01")}}/{{ .date.Format "02" }}
+  {{ else }}
+    {{ .date.Format "06" }}/{{ substr (i18n (.date.Format "01")) 0 3 }}/{{ .date.Format "02" }}
+  {{ end }}
+{{ else }}
+  {{ if eq "long" .format }}
+    {{ .date.Format "01/2" }}
+  {{ else }}
+    {{ .date.Format "01/2" }}
+  {{ end }}
+{{ end }}

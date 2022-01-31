@@ -1,5 +1,5 @@
 {{/*
-  Imported from v1.4.0 (https://github.com/apvarun/blist-hugo-theme/blob/a93291c35d26fa74bcb7111661264c66f7bee660/layouts/_default/list.html)
+  Import from v1.4.0 (https://github.com/apvarun/blist-hugo-theme/blob/a93291c35d26fa74bcb7111661264c66f7bee660/layouts/_default/list.html)
 */}}
 
 {{ define "main" }}
@@ -9,11 +9,14 @@
   {{ $paginator := .Paginate .Pages.ByDate.Reverse 9 }}
   <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
     {{ range $paginator.Pages }}
+      {{/* Replace blog-card.html with my-blog-card.html */}}
       {{- partial "my-blog-card.html" . -}}
     {{ end }}
   </div>
 
   {{- partial "pagination.html" . -}}
-
-  {{- partial "social.html" . -}}
+  {{/*
+    Remove social.html
+    {{- partial "social.html" . -}}
+  */}}
 {{ end }}
