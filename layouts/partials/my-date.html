@@ -4,14 +4,14 @@
 
 {{ if eq "de" .language.Lang }}
   {{ if eq "long" .format }}
-    {{ .date.Format "2006"}}/{{ i18n (.date.Format "01")}}/{{ .date.Format "02" }}
+    {{ .date.Format "2006"}}/{{ i18n (.date.Format "1")}}/{{ .date.Format "2" }}
   {{ else }}
-    {{ .date.Format "06" }}/{{ substr (i18n (.date.Format "01")) 0 3 }}/{{ .date.Format "02" }}
+    {{ .date.Format "06" }}/{{ substr (i18n (.date.Format "1")) 0 3 }}/{{ .date.Format "2" }}
   {{ end }}
 {{ else }}
   {{ if eq "long" .format }}
-    {{ .date.Format "01/2" }}
+    {{ .date.Format "1/2" }}
   {{ else }}
-    {{ .date.Format "01/2" }}
+    {{ .date.Format "1/2" }}
   {{ end }}
 {{ end }}
