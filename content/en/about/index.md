@@ -1,6 +1,6 @@
 +++
 title = "About"
-date  = "2021-01-01"
+date  = "2021-02-01"
 image = "about.jpg"
 +++
 
@@ -12,7 +12,7 @@ umatare5 (Koshu T.)
 
 - umatare5 is an SRE working in Japan.
 
-  He has more than 10 years of industry experience, especially with in-depth knowledge of the networking.
+  He has more than 10 years of industry experience, especially with in-depth knowledge of the networking includes wireless.
   He is good for realtime-processing likes packet analytics, metrics monitoring and others. He is also a backend engineer using Go and TypeScript.
 
 ---
