@@ -82,10 +82,10 @@ umatare5 (Koshu T.)
 
 ### Networking (2012-2020)
 
-- Load Balancing
-- Routing and Switching
-- Wireless
-- Security
+- Load Balancing: F5
+- Routing and Switching: Cisco
+- Wireless: Cisco, Meraki
+- Security: Cisco, Juniper Networks
 
 ### Storage (2012-2014)
 
