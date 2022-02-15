@@ -45,14 +45,21 @@ umatare5 (Koshu T.)
 
 ## Skills
 
-### SaaS (2020-)
+### Public Cloud / SaaS (2020-)
 
-- AWS: Route53, EC2, ECS, Fargate, ClientVPN
-- GCP: Cloud DNS, Compute Engine, Cloud Run
-- Monitoring: Datadog
-- Configuration Management: CloudFormation, Terraform
-- BackOffice: Kintone, ServiceNow ITSM
+- Compute: AWS EC2, Google Compute Engine
+- Container: AWS ECS, AWS Fargate, Google Cloud Run
+- DNS: AWS Route53, Google Cloud DNS
+- Mail: AWS SES
+- Load Balancing: AWS ALB/NLB, Google Cloud Load Balancing
 - Authentication: Auth0
+- Log Management: AWS CloudWatch Logs, Google Cloud Logging
+- Monitoring: AWS CloudWatch, Google Cloud Monitoring, Datadog
+- Configuration Management: CloudFormation, Terraform
+- CI/CD: Github Actions
+- Batch: AWS Lambda, Google Cloud Functions, Google Apps Script
+- API: Google Cloud Endpoints
+- BackOffice: Kintone, ServiceNow ITSM
 
 ### Linux (2012-)
 
@@ -60,7 +67,8 @@ umatare5 (Koshu T.)
 - DHCP: ISC DHCP
 - Web: Apache, Nginx, Squid
 - Mail: Postfix, Sendmail, Dovecot
-- HA: Heartbeat, LTM
+- FTP: vsftpd
+- Load Balancing: Heartbeat, LTM
 - Directory Service: OpenLDAP
 - Authentication: FreeRADIUS
 - Realtime Processing: Fluentd, Norikra
@@ -69,12 +77,12 @@ umatare5 (Koshu T.)
 - Observability: Cacti, Growthforecast, Kibana, Grafana
 - Configuration Management: Chef, Ansible
 - NoSQL: MongoDB
-- Timeseries: Elasticsearch, InfluxDB
-- CI/CD: Drone
-- Others: Kubernetes
+- Timeseries: Elasticsearch, InfluxDB, Cortex
+- CI/CD: Jenkins, Drone
 
 ### Networking (2012-2020)
 
+- Load Balancing
 - Routing and Switching
 - Wireless
 - Security
@@ -88,23 +96,25 @@ umatare5 (Koshu T.)
 ### Virtualization (2010-)
 
 - Hypervisor: KVM, vSphere, Hyper-V
-- HA: vCenter Server
 - Security: vCenter SSO
 - Backup & Recovery: vCenter DataRecovery
 - Desktop: Horizon View
-- Others: vCenter Converter
+- Application: Docker Swarm
+- Others: vCenter Server, vCenter Converter
 
 ### Windows (2008-2014)
 
 - DNS: Microsoft DNS
 - DHCP: Microsoft DHCP
 - Web: IIS
-- HA: NLB, MSFC
+- Mail: IIS SMTP
+- FTP: IIS FTP
+- Load Balancing: NLB, MSFC
 - Directory Service: Active Directory
 - Authentication: ADCS, NPS
 - Security: WSUS
 - Backup & Recovery: BackupExec
-- Job Management: JP1/AJS
+- Batch: JP1/AJS
 
 ### Programming (2008-)
 
