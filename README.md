@@ -12,7 +12,7 @@ My website works on Vercel.
 
 | Command        | Description                       |
 | -------------- | --------------------------------- |
-| `make build`   | Build static files by using hugo. |
+| `make build`   | Build static files using hugo.    |
 | `make serve`   | Run hugo server on local.         |
 | `make release` | Push changes to `main` branch.    |
 
