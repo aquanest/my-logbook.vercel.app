@@ -28,7 +28,7 @@ This web-server depends on following repositories.
 
 - Source
 
-  To generate libraries for Logbook API by using OpenAPI.
+  Generate libraries for Logbook API using OpenAPI.
 
   - [umatare5/logbook-openapi-src](https://github.com/umatare5/logbook-openapi-src)
 
@@ -49,7 +49,7 @@ This web-server depends on following repositories.
 
 - Sources
 
-  To generate libraries for ATMOS Platform API by using OpenAPI.
+  Generate libraries for ATMOS Platform API using OpenAPI.
 
   - [umatare5/atmos-openapi-src](https://github.com/umatare5/atmos-openapi-src)
   - [umatare5/atmos-login-openapi-src](https://github.com/umatare5/atmos-login-openapi-src) (Private)
@@ -72,20 +72,20 @@ This web-server depends on following repositories.
 
 - Public Cloud
 
-  Using GCP to serve Logbook API.
+  Serve Logbook API using GCP.
 
   - [umatare5/my-cloud-terraform](https://github.com/umatare5/my-cloud-terraform) (Private)
 
 - On Premises
 
-  Using On-Premises to run monitoring system.
+  Run monitoring system using On-Premises.
 
   - [umatare5/my-infra-network](https://github.com/umatare5/my-infra-network)
   - [umatare5/my-infra-ansible](https://github.com/umatare5/my-infra-ansible)
 
 - Monitoring
 
-  Using Prometheus to monitor each statuses on Logbook API.
+  Monitor each statuses on Logbook API using Prometheus.
 
   - [umatare5/my-prometheus-etc](https://github.com/umatare5/my-prometheus-etc) (Private)
   - [umatare5/my-alertmanager-etc](https://github.com/umatare5/my-alertmanager-etc) (Private)
