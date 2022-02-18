@@ -34,7 +34,7 @@ This web-server depends on following repositories.
 
 - Libraries
 
-  Invoked from a Logbook CLI and a router of Logbook API.
+  Libraries will be invoked from Logbook CLI and a router of Logbook API.
 
   - [umatare5/logbook-go](https://github.com/umatare5/logbook-go)
   - [umatare5/logbook-api-router-impl](https://github.com/umatare5/logbook-api-router-impl)
@@ -56,7 +56,7 @@ This web-server depends on following repositories.
 
 - Libraries
 
-  Invoked from a ATMOS CLI.
+  Libraries will be invoked from ATMOS CLI.
 
   - [umatare5/atmos-go](https://github.com/umatare5/atmos-go)
   - [umatare5/atmos-login-go](https://github.com/umatare5/atmos-login-go) (Private)
@@ -72,7 +72,7 @@ This web-server depends on following repositories.
 
 - Public Cloud
 
-  Serve Logbook API using GCP.
+  Publish Logbook API using GCP.
 
   - [umatare5/my-cloud-terraform](https://github.com/umatare5/my-cloud-terraform) (Private)
 
@@ -85,7 +85,7 @@ This web-server depends on following repositories.
 
 - Monitoring
 
-  Monitor each statuses on Logbook API using Prometheus.
+  Monitor each status of Logbook API using Prometheus.
 
   - [umatare5/my-prometheus-etc](https://github.com/umatare5/my-prometheus-etc) (Private)
   - [umatare5/my-alertmanager-etc](https://github.com/umatare5/my-alertmanager-etc) (Private)
