@@ -60,6 +60,7 @@ umatare5 (Koshu T.)
 - Batch: AWS Lambda, Google Cloud Functions, Google Apps Script
 - API: Google Cloud Endpoints
 - BackOffice: Kintone, ServiceNow ITSM
+- Drawing Tool: Lucidchart
 
 ### Linux (2012-)
 
@@ -79,6 +80,7 @@ umatare5 (Koshu T.)
 - NoSQL: MongoDB
 - Timeseries: Elasticsearch, InfluxDB, Cortex
 - CI/CD: Jenkins, Drone
+- Drawing Tool: Cacoo, draw.io, Google Slide
 
 ### Networking (2012-2020)
 
@@ -115,6 +117,7 @@ umatare5 (Koshu T.)
 - Security: WSUS
 - Backup & Recovery: BackupExec
 - Batch: JP1/AJS
+- Drawing Tool: Visio
 
 ### Programming (2008-)
 
