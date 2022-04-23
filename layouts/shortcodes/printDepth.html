@@ -1,9 +1,30 @@
-{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
-{{ $id := index (seq 999 | shuffle) 1 }}
+<ul class="depthGraph">
+  {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
+  {{ $id := index (seq 999 | shuffle) 1 }}
 
-<div style="width: 90%; height: auto; margin: 0 auto">
+  {{ $basePressure := 1013 }}
+  {{ if ne $dataJ.response.divelog.altitude nil }}
+    {{ $basePressure := float $dataJ.response.divelog.altitude }}
+  {{ end }}
+
+  {{ $maxDepth := div ( add ( sub 0 (float $dataJ.response.divelog.max_pressure)) $basePressure ) 100 }}
+  {{ $avgDepth := $dataJ.response.divelog.average_depth }}
+
+  <div>
+    <tr>
+      <th><span class="label label-blue">Max</span></th>
+      <td>{{ $maxDepth }}m</td>
+    </tr>
+    <tr>
+      <th><span class="label label-blue">Average</span></th>
+      <td>-{{ $avgDepth }}m</td>
+    </tr>
+  </div>
+
+  <div style="width: 90%; height: auto; margin: 0 auto">
     <canvas id="{{ $id }}"></canvas>
-</div>
+  </div>
+</ul>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
 <script type="text/javascript">
@@ -41,9 +62,20 @@
             }]
         },
         options: {
-            tooltips: {
-                mode: 'nearest',
+            plugins: {
+                legend: {
+                  display: false
+                },
+                tooltips: {
+                    mode: 'nearest',
+                },
             },
+            scales: {
+                y: {
+                    suggestedMin: -40,
+                    suggestedMax: 0,
+                }
+            }
         }
     });
 </script>

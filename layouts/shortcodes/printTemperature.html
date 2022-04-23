@@ -1,9 +1,25 @@
-{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
-{{ $id := index (seq 999 | shuffle) 1 }}
+<ul class="temperature">
+  {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
+  {{ $id := index (seq 999 | shuffle) 1 }}
 
-<div style="width: 90%; height: auto; margin: 0 auto">
+  {{ $minTemperature := $dataJ.response.divelog.min_temperature }}
+  {{ $airTemperature := $dataJ.response.divelog.air_temperature }}
+
+  <div>
+    <tr>
+      <th><span class="label label-blue">Water</span></th>
+      <td><span class="label"></span>{{ $minTemperature }} °C</span></td>
+    </tr>
+    <tr>
+      <th><span class="label label-blue">Air</span></th>
+      <td><span class="label">{{ $airTemperature }} °C</span></td>
+    </tr>
+  </div>
+
+  <div style="width: 90%; height: auto; margin: 0 auto">
     <canvas id="{{ $id }}"></canvas>
-</div>
+  </div>
+</ul>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
 <script type="text/javascript">
@@ -29,20 +45,31 @@
         data: {
             labels: labels,
             datasets: [{
-                label: 'Temperature (℃)',
+                label: 'Temperature (°C)',
                 data: temperature,
                 fill: true,
                 backgroundColor: '#f57c00AB',
                 borderColor: '#f57c0000',
                 borderWidth: 1,
                 pointRadius: 0.1,
-                pointHitRadius: 768,
+                pointHitRadius: 768
             }]
         },
         options: {
-            tooltips: {
-                mode: 'nearest',
+            plugins: {
+                legend: {
+                  display: false
+                },
+                tooltips: {
+                    mode: 'nearest',
+                },
             },
+            scales: {
+                y: {
+                    suggestedMin: 10,
+                    suggestedMax: 30,
+                }
+            }
         }
     });
 </script>

@@ -1,0 +1,36 @@
+<div class="xPrevNextLink">
+  {{ with .PrevInSection }}
+    <div class="xPrevNextLink_prev">
+      <a href="{{ .Permalink }}" style="text-decoration-line: none;">{{ .LinkTitle }}</a>
+    </div>
+  {{ end }}
+  {{ with .NextInSection }}
+    <div class="xPrevNextLink_next">
+      <a href="{{ .Permalink }}" style="text-decoration-line: none;">{{ .LinkTitle }}</a>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+  .xPrevNextLink {
+    display: block;
+    content: "";
+    clear: both;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  .xPrevNextLink_prev {
+    display: block;
+    float: left;
+    margin-right: 30px;
+  }
+  .xPrevNextLink_prev::before {
+    content: "≪";
+  }
+  .xPrevNextLink_next {
+    display: block;
+  }
+  .xPrevNextLink_next::after {
+    content: "≫";
+  }
+</style>

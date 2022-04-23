@@ -1,0 +1,38 @@
+<ul class="divelog">
+  {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
+
+  {{ $diveTimeMinutes := math.Floor (div $dataJ.response.divelog.dive_duration 60) }}
+  {{ $diveTimeSeconds := mod $dataJ.response.divelog.dive_duration 60 }}
+  {{ $pointName := $dataJ.response.divelog.poi.poi_name }}
+  {{ $pointRegion := $dataJ.response.divelog.poi.poi_region }}
+  {{ $diveDate := $dataJ.response.divelog.dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
+  {{ $diveStartTime := $dataJ.response.divelog.dive_datetime | int | dateFormat "3:04 pm" }}
+
+  <div>
+    <tr>
+      <th><span class="label label-blue">Date</span></th>
+      <td>{{ $diveDate }}</td>
+    </tr>
+  </div>
+
+  <div>
+    <tr>
+      <th><span class="label label-blue">Point</span></th>
+      <td>{{ $pointRegion }} - {{ $pointName }}</td>
+    </tr>
+  </div>
+
+  <div>
+    <tr>
+      <th><span class="label label-blue">Entry Time</span></th>
+      <td>{{ $diveStartTime }}</td>
+    </tr>
+  </div>
+
+  <div>
+    <tr>
+      <th><span class="label label-blue">Dive Time</span></th>
+      <td>{{ $diveTimeMinutes }} minutes {{ $diveTimeSeconds }} seconds</td>
+    </tr>
+  </div>
+</ul>
