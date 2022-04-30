@@ -52,7 +52,7 @@ umatare5 (Koshu T.)
 - DNS: AWS Route53, Google Cloud DNS
 - Mail: AWS SES
 - Load Balancing: AWS ALB/NLB, Google Cloud Load Balancing
-- Authentication: Auth0
+- Authentication: GCP Cloud Identity, GCP Workload Identity, Auth0
 - Log Management: AWS CloudWatch Logs, Google Cloud Logging
 - Monitoring: AWS CloudWatch, Google Cloud Monitoring, Datadog
 - Configuration Management: CloudFormation, Terraform
