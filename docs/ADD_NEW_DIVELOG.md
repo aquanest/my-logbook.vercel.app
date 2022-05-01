@@ -30,6 +30,8 @@
 
   </div></details>
 
+  > When you fail to fetch divelogs, you should update access-token. Please refer to [RENEW_ACCESS_TOKEN.md](./RENEW_ACCESS_TOKEN.md).
+
 - Put header image into `./static/images/`.
 
   > Resolution of the image should be set to 1080 x 320.
