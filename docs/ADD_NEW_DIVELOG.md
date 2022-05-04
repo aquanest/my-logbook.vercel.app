@@ -42,7 +42,7 @@
 
 ## Release posts
 
-- Push this code. When that marged, Vercel will build and deploy it.
+- Push this code. When that merged, Vercel will build and deploy it.
 
   ```bash
   git push origin HEAD
