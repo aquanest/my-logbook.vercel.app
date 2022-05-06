@@ -1,7 +1,7 @@
 ---
 date: 2022-01-01 9:00:00
 title: "Equipments"
-thumbnail: "/about.jpg"
+thumbnail: "/equipments.jpg"
 ---
 
 ## Certifications
@@ -12,9 +12,14 @@ thumbnail: "/about.jpg"
 
 ## Wears
 
-- Custom-made Neoprene Wetsuit Long Sleeve Jacket (3mm)
-- Custom-made Neoprene Wetsuit Long John (3mm)
+- Custom Neoprene Wetsuit Long Sleeve Jacket (3mm)
+- Custom Neoprene Wetsuit Long John (3mm)
 - MOBBY'S Men's Warm Plus Long Pants (1mm) ([Link](https://www.mobby.co.jp/products/warm_plus_men_lp/))
+
+  ### Drysuit Inners
+
+  - World Dive Thermal Body Smoother Pullover ([Link](https://www.amazon.co.jp/dp/B00EUWJYUG))
+  - World Dive Thermal Body Smoother Trousers ([Link](https://www.amazon.co.jp/dp/B00EUWC0ES))
 
 ## Gears
 
@@ -35,10 +40,10 @@ thumbnail: "/about.jpg"
 - SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
 
   - Picture Settings
-    - File Format: RAW
+    - File Format: RAW+JPEG
     - JPEG Quality: Fine
     - JPEG Image Size: L (20M)
-    - Aspect Ratio: 3:2 (Mimic Standard Film)
+    - Aspect Ratio: 3:2 (Standard Film)
     - Focus Mode: Single-shot AF or Continuous AF
     - Focus Area: Center
     - White Balance: Underwater Auto
@@ -50,6 +55,7 @@ thumbnail: "/about.jpg"
     - Regist Faces Priority: Off
   - Video Settings
     - File Format: XAVC S HD
+  - Default F: 1.8
 
 - GoPro HERO8 ([Link](https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html)) with Protective Housing ([Link](https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html))
-- [Stock] Nikon W300 ([Link](https://www.nikon-image.com/products/compact/lineup/w300/spec.html))
+- [Stock] Nikon COOLPIX W300 ([Link](https://www.nikon-image.com/products/compact/lineup/w300/spec.html))
