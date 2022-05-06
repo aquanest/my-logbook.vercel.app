@@ -1,6 +1,6 @@
 - item: Blog
   url: ""
-- item: Archive
-  url: post/
+- item: Equipments
+  url: equipments/
 - item: About
   url: about/

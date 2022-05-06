@@ -24,9 +24,14 @@ url = "blog"
 weight = 1
 
 [[languages.en.menu.main]]
+name = "Equipments"
+url = "equipments"
+weight = 2
+
+[[languages.en.menu.main]]
 name = "About"
 url = "about"
-weight = 2
+weight = 3
 
 [params]
 # Enable the darkmode toggle in header

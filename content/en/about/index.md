@@ -1,8 +1,8 @@
-+++
-title = "About"
-date  = "2021-02-01"
-image = "about.jpg"
-+++
+---
+date: 2022-01-01 9:00:00
+title: "About"
+thumbnail: "/about.jpg"
+---
 
 ## Author
 
