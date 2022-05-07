@@ -30,10 +30,10 @@ thumbnail: "/equipments.jpg"
 
 ## Accessaries
 
-- ATMOS MISSION ONE ([Link](https://www.atmos.app/missionone/))
-- TOVATEC FUSION 1050 ([Link](https://tovatec.com/collections/lights/products/fus1050))
-- World Dive Weight Vest Ver.2 ([Link](https://www.amazon.co.jp/dp/B00EVEKSZI/))
-- TOOLS Magic Heater ([Link](https://www.amazon.co.jp/dp/B00PRM3IAK))
+- Computer: ATMOS MISSION ONE ([Link](https://www.atmos.app/missionone/))
+- Light: TOVATEC FUSION 1050 ([Link](https://tovatec.com/collections/lights/products/fus1050))
+- Weight: World Dive Weight Vest Ver.2 ([Link](https://www.amazon.co.jp/dp/B00EVEKSZI/))
+- Other: TOOLS Magic Heater ([Link](https://www.amazon.co.jp/dp/B00PRM3IAK))
 
 ## Camera
 
