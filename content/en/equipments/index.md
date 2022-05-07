@@ -45,8 +45,8 @@ thumbnail: "/equipments.jpg"
 
   - Defaults
 
-    - Mode: AV (Aperture-value) mode
-    - <I>f</I>: 1.8
+    - f</I>/1.8
+    - AV (Aperture-value) mode
 
   - Picture Settings
 
