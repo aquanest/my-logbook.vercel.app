@@ -39,7 +39,17 @@ thumbnail: "/equipments.jpg"
 
 - SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
 
+  <details><summary>Settings</summary>
+
+  - Software Version: 1.0
+
+  - Defaults
+
+    - Mode: AV (Aperture-value) mode
+    - <I>f</I>: 1.8
+
   - Picture Settings
+
     - File Format: RAW+JPEG
     - JPEG Quality: Fine
     - JPEG Image Size: L (20M)
@@ -53,9 +63,65 @@ thumbnail: "/equipments.jpg"
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
     - Regist Faces Priority: Off
+
   - Video Settings
+
     - File Format: XAVC S HD
-  - Default F: 1.8
+
+  </details>
 
 - GoPro HERO8 ([Link](https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html)) with Protective Housing ([Link](https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html))
+
+  <details><summary>Settings</summary>
+
+  - Software Version: 2.51
+
+  - Preferences
+
+    - Voice Control: Off
+    - Screen Saver: 1 Min
+    - Ayti Power Off: 5 Min
+
+  - Standard Profile
+
+    - Resolution: 4K
+    - FPS: 60
+    - Lens: Wide (Default)
+    - HyperSmooth: On (Default)
+    - Clips: Off (Default)
+    - Bit Rate: High
+    - EV Comp -0.5
+    - White Balance: 5000K
+    - ISO Min: 100 (Default)
+    - ISO Max: 100
+    - Sharpness: Medium
+    - Color: Flat
+    - RAW Audio: Off (Default)
+    - Wind: Auto (Default)
+
+  </details>
+
 - [Stock] Nikon COOLPIX W300 ([Link](https://www.nikon-image.com/products/compact/lineup/w300/spec.html))
+
+  <details><summary>Settings</summary>
+
+  - Software Version: 1.5
+
+  - Picture Settings
+
+    - Resolution: 4608 x 3456
+
+  - Movie Settings
+
+    - RES/FPS: 1080/60p
+    - AF Mode: AF-F
+
+  - Setup Menu
+
+    - Underwater Flash: ON
+    - Action Control Response: 1
+    - Playback Action Control: OFF
+    - Auto Off: 1m
+      LED Light Timer: 5m
+
+  </details>
