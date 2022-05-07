@@ -80,7 +80,7 @@ thumbnail: "/equipments.jpg"
 
     - Voice Control: Off
     - Screen Saver: 1 Min
-    - Ayti Power Off: 5 Min
+    - Auto Power Off: 5 Min
 
   - Standard Profile
 
