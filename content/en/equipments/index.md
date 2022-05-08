@@ -4,6 +4,16 @@ title: "Equipments"
 thumbnail: "/equipments.jpg"
 ---
 
+## Index
+
+- [Certifications](#Certifications)
+- [Wears](#Wears)
+- [Gears](#Gears)
+- [Accessaries](#Accessaries)
+- [Cameras](#Cameras)
+
+---
+
 ## Certifications
 
 - DACS Advanced Open Water Diver
@@ -35,7 +45,7 @@ thumbnail: "/equipments.jpg"
 - Vest: World Dive Weight Vest Ver.2 ([Link](https://www.amazon.co.jp/dp/B00EVEKSZI/))
 - Other: TOOLS Magic Heater ([Link](https://www.amazon.co.jp/dp/B00PRM3IAK))
 
-## Camera
+## Cameras
 
 - SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
 
