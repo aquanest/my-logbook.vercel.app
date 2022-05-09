@@ -8,7 +8,6 @@ thumbnail: "/equipments.jpg"
 
 - [Certifications](#certifications)
 - [Wears](#wears)
-  - [Drysuit Innner](#drysuit-inner)
 - [Gears](#gears)
 - [Accessories](#accessories)
 - [Cameras](#cameras)
@@ -27,7 +26,7 @@ thumbnail: "/equipments.jpg"
 - Custom Neoprene Wetsuit Long John (3mm)
 - MOBBY'S Men's Warm Plus Long Pants (1mm) ([Link](https://www.mobby.co.jp/products/warm_plus_men_lp/))
 
-  <h3 id="drysuit-inner">Drysuit Inners</h3>
+  ### Drysuit Inners
 
   - World Dive Thermal Body Smoother Pullover ([Link](https://www.amazon.co.jp/dp/B00EUWJYUG))
   - World Dive Thermal Body Smoother Trousers ([Link](https://www.amazon.co.jp/dp/B00EUWC0ES))
