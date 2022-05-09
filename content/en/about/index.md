@@ -6,14 +6,14 @@ thumbnail: "/about.jpg"
 
 ## Index
 
-- [Author](#Author)
-- [Jobs](#Jobs)
-- [Skills](#Skills)
-- [Qualifications](#Qualifications)
+- [Author](#author)
+- [Jobs](#job)
+- [Skills](#skills)
+- [Qualifications](#qualifications)
 
 ---
 
-## Author
+<h2 id="author">Author</h2>
 
 umatare5 (Koshu T.)
 
@@ -26,7 +26,7 @@ umatare5 (Koshu T.)
 
 ---
 
-## Jobs
+<h2 id="job">Jobs</h2>
 
 ### Company #4
 
@@ -52,7 +52,7 @@ umatare5 (Koshu T.)
 
 ---
 
-## Skills
+<h2 id="skills">Skills</h2>
 
 ### Public Cloud / SaaS (2020-)
 
@@ -138,7 +138,7 @@ umatare5 (Koshu T.)
 
 ---
 
-## Qualifications
+<h2 id="qualifications">Qualifications</h2>
 
 - Amateur Third-Class Radio Operator
 - Maritime Ⅱ-Category Special Radio Operator

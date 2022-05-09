@@ -6,21 +6,21 @@ thumbnail: "/equipments.jpg"
 
 ## Index
 
-- [Certifications](#Certifications)
-- [Wears](#Wears)
-- [Gears](#Gears)
-- [Accessaries](#Accessaries)
-- [Cameras](#Cameras)
+- [Certifications](#certifications)
+- [Wears](#wears)
+- [Gears](#gears)
+- [Accessories](#accessories)
+- [Cameras](#cameras)
 
 ---
 
-## Certifications
+<h2 id="certifications">Certifications</h2>
 
 - DACS Advanced Open Water Diver
 - PADI Deep Diver
 - PADI Drysuit Diver
 
-## Wears
+<h2 id="wears">Wears</h2>
 
 - Custom Neoprene Wetsuit Long Sleeve Jacket (3mm)
 - Custom Neoprene Wetsuit Long John (3mm)
@@ -31,21 +31,21 @@ thumbnail: "/equipments.jpg"
   - World Dive Thermal Body Smoother Pullover ([Link](https://www.amazon.co.jp/dp/B00EUWJYUG))
   - World Dive Thermal Body Smoother Trousers ([Link](https://www.amazon.co.jp/dp/B00EUWC0ES))
 
-## Gears
+<h2 id="gears">Gears</h2>
 
 - Fin: GULL MEW CYPHER ([Link](https://gull.kinugawa-net.co.jp/products/fins/mewcypher/))
 - Boots: GULL GS Boots ([Link](https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/))
 - Mask: GULL VADER ([Link](https://gull.kinugawa-net.co.jp/products/mask/vader/))
 - Gloves: TOOLS Super Stretch Surf Gloves ([Link](https://www.amazon.co.jp/dp/B00GCYSAZU))
 
-## Accessaries
+<h2 id="accessories">Accessories</h2>
 
 - Computer: ATMOS MISSION ONE ([Link](https://www.atmos.app/missionone/))
 - Light: TOVATEC FUSION 1050 ([Link](https://tovatec.com/collections/lights/products/fus1050))
 - Vest: World Dive Weight Vest Ver.2 ([Link](https://www.amazon.co.jp/dp/B00EVEKSZI/))
 - Other: TOOLS Magic Heater ([Link](https://www.amazon.co.jp/dp/B00PRM3IAK))
 
-## Cameras
+<h2 id="cameras">Cameras</h2>
 
 - SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
 
