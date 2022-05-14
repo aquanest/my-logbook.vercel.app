@@ -69,7 +69,7 @@ thumbnail: "/equipments.jpg"
     - White Balance: Underwater Auto
     - Flash Mode: Flash Off
     - ISO: AUTO
-    - ISO AUTO Min. SS: 1/500 (For Dolphins
+    - ISO AUTO Min. SS: 1/500 \* Means preventing low ISO
     - AF illuminator: Off
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
@@ -114,7 +114,7 @@ thumbnail: "/equipments.jpg"
 
 - [Stock] Nikon COOLPIX W300 ([Link](https://www.nikon-image.com/products/compact/lineup/w300/spec.html))
 
-  <details><summary>Settings</summary>
+    <details><summary>Settings</summary>
 
   - Software Version: 1.5
 
@@ -135,7 +135,7 @@ thumbnail: "/equipments.jpg"
     - Auto Off: 1m
       LED Light Timer: 5m
 
-  </details>
+    </details>
 
-  - Documents
-    - [To Decide ISO underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+- Reference
+  - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
