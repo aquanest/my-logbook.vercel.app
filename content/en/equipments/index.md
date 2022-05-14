@@ -68,11 +68,12 @@ thumbnail: "/equipments.jpg"
     - Focus Area: Center
     - White Balance: Underwater Auto
     - Flash Mode: Flash Off
-    - ISO: 200
+    - ISO: AUTO
+    - ISO AUTO Min. SS: 1/500 (For Dolphins
     - AF illuminator: Off
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
-    - Regist Faces Priority: Off
+    - Regist. Faces Priority: Off
 
   - Video Settings
 
@@ -135,3 +136,6 @@ thumbnail: "/equipments.jpg"
       LED Light Timer: 5m
 
   </details>
+
+  - Documents
+    - [To Decide ISO underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
