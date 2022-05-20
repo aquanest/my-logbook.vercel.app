@@ -11,6 +11,7 @@ thumbnail: "/equipments.jpg"
 - [Gears](#gears)
 - [Accessories](#accessories)
 - [Cameras](#cameras)
+- [References](#references)
 
 ---
 
@@ -138,3 +139,7 @@ thumbnail: "/equipments.jpg"
       LED Light Timer: 5m
 
     </details>
+
+<h2 id="references">References</h2>
+
+- [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
