@@ -138,7 +138,3 @@ thumbnail: "/equipments.jpg"
       LED Light Timer: 5m
 
     </details>
-
-- Reference
-
-  - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
