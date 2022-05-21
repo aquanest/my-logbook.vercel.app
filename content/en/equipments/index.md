@@ -25,7 +25,7 @@ thumbnail: "/equipments.jpg"
 
 - Weight
 
-  When use steel tank.
+  When use steel tank;
 
   - Wetsuit: 4kg
   - Drysuit: 8kg (BCD 1kg \* 2, Vest 4kg, Foot 1kg \* 2)
