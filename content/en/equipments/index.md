@@ -23,11 +23,18 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="setup">Setup</h2>
 
-|          | Left  | Right  |
-| -------- | ----- | ------ |
-| Hand     | Free  | Light  |
-| Hook     | Free  | Camera |
-| Shoulder | GoPro | N/A    |
+- Weight
+
+  - Wetsuit: 4kg
+  - Drysuit: 8kg (BCD 2kg, Vest 5kg, Foot 0.5kg \*2)
+
+- Items
+
+  |          | Left  | Right  |
+  | -------- | ----- | ------ |
+  | Hand     | Free  | Light  |
+  | Hook     | Free  | Camera |
+  | Shoulder | GoPro | N/A    |
 
 <h3 id="wears">Wears</h2>
 
