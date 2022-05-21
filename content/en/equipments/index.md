@@ -23,16 +23,20 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="setup">Setup</h2>
 
-- Weight \* When use steel tank
+- Weight
+
+  When use steel tank.
 
   - Wetsuit: 4kg
   - Drysuit: 8kg (BCD 1kg \* 2, Vest 4kg, Foot 1kg \* 2)
 
-|          | Left  | Right  |
-| -------- | ----- | ------ |
-| Hand     | Free  | Light  |
-| Hook     | Free  | Camera |
-| Shoulder | GoPro | N/A    |
+- Carry Style
+
+  |          | Left  | Right  |
+  | -------- | ----- | ------ |
+  | Hand     | Free  | Light  |
+  | Hook     | Free  | Camera |
+  | Shoulder | GoPro | N/A    |
 
 <h3 id="wears">Wears</h2>
 
@@ -85,7 +89,7 @@ thumbnail: "/equipments.jpg"
     - White Balance: Underwater Auto
     - Flash Mode: Flash Off
     - ISO: AUTO
-    - ISO AUTO Min. SS: 1/500 \* Means preventing low ISO
+    - ISO AUTO Min. SS: 1/500 \* Means preventing high ISO
     - AF illuminator: Off
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
@@ -95,9 +99,15 @@ thumbnail: "/equipments.jpg"
 
     - File Format: XAVC S HD
 
+  - Setup
+
+    Pwr Save Start Time: 1 Min
+
   </details>
 
 - GoPro HERO8 ([Link](https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html)) with Protective Housing ([Link](https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html))
+
+  Hold by SUREWO Backpack Shoulder Strap Mount ([Link](https://www.amazon.co.jp/dp/B0975S3CPJ))
 
   <details><summary>Settings</summary>
 
@@ -153,8 +163,8 @@ thumbnail: "/equipments.jpg"
 
     </details>
 
-  ### References
+  - ### References
 
-  - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
-  - [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
-  - [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+    - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+    - [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
+    - [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
