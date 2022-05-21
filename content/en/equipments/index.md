@@ -26,7 +26,7 @@ thumbnail: "/equipments.jpg"
 - Weight
 
   - Wetsuit: 4kg
-  - Drysuit: 8kg (BCD 2kg, Vest 5kg, Foot 0.5kg \*2)
+  - Drysuit: 8kg (BCD 1kg\*2, Vest 4kg, Foot 1kg\*2)
 
 - Items
 
