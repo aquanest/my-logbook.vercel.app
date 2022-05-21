@@ -11,7 +11,7 @@ thumbnail: "/equipments.jpg"
 - [Gears](#gears)
 - [Accessories](#accessories)
 - [Cameras](#cameras)
-- [Links](#links)
+- [Links for Learning](#links)
 
 ---
 
@@ -140,7 +140,7 @@ thumbnail: "/equipments.jpg"
 
     </details>
 
-<h2 id="links">Links</h2>
+<h2 id="links">Links for Learning</h2>
 
 - [Keep It Up: Buoyancy Control](https://www.ikelite.com/blogs/advanced-techniques/keep-it-up-buoyancy-control)
 - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
