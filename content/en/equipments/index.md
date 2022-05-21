@@ -142,18 +142,10 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="links">Links</h2>
 
-- Learn scuba-diving
-
 - [Keep It Up: Buoyancy Control](https://www.ikelite.com/blogs/advanced-techniques/keep-it-up-buoyancy-control)
-
-- Learn Camera
-
-  - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
-  - [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
-  - [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
-  - [Close Focus Wide Angle In Depth](https://www.ikelite.com/blogs/advanced-techniques/close-focus-wide-angle-in-depth)
-
-- Learn Underwater Photo
-
-  - [4 Creative Uses for Backscatter in Underwater Images](https://www.ikelite.com/blogs/advanced-techniques/4-creative-uses-for-backscatter-in-underwater-images)
-  - [Natural Light Photography Underwater](https://www.ikelite.com/blogs/advanced-techniques/natural-light-photography)
+- [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+- [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
+- [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+- [Close Focus Wide Angle In Depth](https://www.ikelite.com/blogs/advanced-techniques/close-focus-wide-angle-in-depth)
+- [4 Creative Uses for Backscatter in Underwater Images](https://www.ikelite.com/blogs/advanced-techniques/4-creative-uses-for-backscatter-in-underwater-images)
+- [Natural Light Photography Underwater](https://www.ikelite.com/blogs/advanced-techniques/natural-light-photography)
