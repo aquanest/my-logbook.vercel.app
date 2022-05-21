@@ -7,11 +7,11 @@ thumbnail: "/equipments.jpg"
 ## Index
 
 - [Certifications](#certifications)
-- [Wears](#wears)
-- [Gears](#gears)
-- [Accessories](#accessories)
-- [Cameras](#cameras)
-- [References](#references)
+- [Setup](#setup)
+  - [Wears](#wears)
+  - [Gears](#gears)
+  - [Accessories](#accessories)
+  - [Cameras](#cameras)
 
 ---
 
@@ -21,7 +21,15 @@ thumbnail: "/equipments.jpg"
 - PADI Deep Diver
 - PADI Drysuit Diver
 
-<h2 id="wears">Wears</h2>
+<h2 id="setup">Setup</h2>
+
+|          | Left  | Right  |
+| -------- | ----- | ------ |
+| Hand     | Free  | Light  |
+| Hook     | Free  | Camera |
+| Shoulder | GoPro | N/A    |
+
+<h3 id="wears">Wears</h2>
 
 - Custom Neoprene Wetsuit Long Sleeve Jacket (3mm)
 - Custom Neoprene Wetsuit Long John (3mm)
@@ -32,21 +40,21 @@ thumbnail: "/equipments.jpg"
   - World Dive Thermal Body Smoother Pullover ([Link](https://www.amazon.co.jp/dp/B00EUWJYUG))
   - World Dive Thermal Body Smoother Trousers ([Link](https://www.amazon.co.jp/dp/B00EUWC0ES))
 
-<h2 id="gears">Gears</h2>
+<h3 id="gears">Gears</h2>
 
 - Fin: GULL MEW CYPHER ([Link](https://gull.kinugawa-net.co.jp/products/fins/mewcypher/))
 - Boots: GULL GS Boots ([Link](https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/))
 - Mask: GULL VADER ([Link](https://gull.kinugawa-net.co.jp/products/mask/vader/))
 - Gloves: TOOLS Super Stretch Surf Gloves ([Link](https://www.amazon.co.jp/dp/B00GCYSAZU))
 
-<h2 id="accessories">Accessories</h2>
+<h3 id="accessories">Accessories</h2>
 
 - Computer: ATMOS MISSION ONE ([Link](https://www.atmos.app/missionone/))
 - Light: TOVATEC FUSION 1050 ([Link](https://tovatec.com/collections/lights/products/fus1050))
 - Vest: World Dive Weight Vest Ver.2 ([Link](https://www.amazon.co.jp/dp/B00EVEKSZI/))
 - Other: TOOLS Magic Heater ([Link](https://www.amazon.co.jp/dp/B00PRM3IAK))
 
-<h2 id="cameras">Cameras</h2>
+<h3 id="cameras">Cameras</h2>
 
 - SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
 
@@ -140,8 +148,8 @@ thumbnail: "/equipments.jpg"
 
     </details>
 
-<h2 id="references">References</h2>
+  ### References
 
-- [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
-- [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
-- [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+  - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+  - [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
+  - [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
