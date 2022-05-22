@@ -35,7 +35,7 @@ thumbnail: "/equipments.jpg"
   |          | Left  | Right  |
   | -------- | ----- | ------ |
   | Hand     | Free  | Light  |
-  | Hook     | Free  | Camera |
+  | Hook     | Pouch | Camera |
   | Shoulder | GoPro | N/A    |
 
 <h3 id="wears">Wears</h2>
