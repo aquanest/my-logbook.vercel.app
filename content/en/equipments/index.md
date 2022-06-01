@@ -34,7 +34,7 @@ thumbnail: "/equipments.jpg"
 
   |          | Left  | Right  |
   | -------- | ----- | ------ |
-  | Hand     | Free  | Light  |
+  | Hand     | Light | Free   |
   | Hook     | Pouch | Camera |
   | Shoulder | GoPro | N/A    |
 
