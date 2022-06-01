@@ -89,7 +89,7 @@ thumbnail: "/equipments.jpg"
     - White Balance: Underwater Auto
     - Flash Mode: Flash Off
     - ISO: AUTO
-    - ISO AUTO Min. SS: 1/500 \* Means preventing high ISO
+    - ISO AUTO Min. SS: 1/250 \* Means preventing high ISO
     - AF illuminator: Off
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
