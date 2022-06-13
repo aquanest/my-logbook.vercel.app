@@ -18,8 +18,9 @@ thumbnail: "/equipments.jpg"
 <h2 id="certifications">Certifications</h2>
 
 - DACS Advanced Open Water Diver
-- PADI Deep Diver
-- PADI Drysuit Diver
+  - PADI Deep Diver
+  - PADI Enriched Air Diver
+  - PADI Drysuit Diver
 
 <h2 id="setup">Setup</h2>
 
