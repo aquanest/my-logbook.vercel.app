@@ -128,7 +128,7 @@ thumbnail: "/equipments.jpg"
     - HyperSmooth: On (Default)
     - Clips: Off (Default)
     - Bit Rate: High
-    - EV Comp 0
+    - EV Comp: 0
     - White Balance: 6500K
     - ISO Min: 100 (Default)
     - ISO Max: 1600
@@ -145,7 +145,7 @@ thumbnail: "/equipments.jpg"
     - HyperSmooth: On (Default)
     - Clips: Off (Default)
     - Bit Rate: High
-    - EV Comp -0.5
+    - EV Comp: -0.5
     - White Balance: 5000K
     - ISO Min: 100 (Default)
     - ISO Max: 100
