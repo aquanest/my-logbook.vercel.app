@@ -75,7 +75,7 @@ thumbnail: "/equipments.jpg"
   - Defaults
 
     - f</I>/1.8
-    - AV (Aperture-value) mode
+    - SP (Shutter Priority) mode
 
   - Picture Settings
 
@@ -83,7 +83,7 @@ thumbnail: "/equipments.jpg"
     - JPEG Quality: Fine
     - JPEG Image Size: L (20M)
     - Aspect Ratio: 3:2 (Standard Film)
-    - Focus Mode: Single-shot AF or Continuous AF
+    - Focus Mode: Continuous AF or DMF (Single-shot AF)
     - Focus Area: Center
     - White Balance: Underwater Auto
     - Flash Mode: Flash Off
@@ -93,7 +93,7 @@ thumbnail: "/equipments.jpg"
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
     - Regist. Faces Priority: Off
-    - Peaking Display: On
+    - Peaking Display: On \* When enabled on DMF mode
 
   - Video Settings
 
