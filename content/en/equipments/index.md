@@ -93,7 +93,7 @@ thumbnail: "/equipments.jpg"
     - Face Prty In Mlti Mtr: Off
     - DRO / Auto HDR: Off
     - Regist. Faces Priority: Off
-    - Peaking Display: On \* When enabled on DMF mode
+    - Peaking Display: On \* When enables on DMF mode
 
   - Video Settings
 
