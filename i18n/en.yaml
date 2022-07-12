@@ -10,7 +10,7 @@
 - id: readMore
   translation: "Read More"
 - id: morePosts
-  translation: "Full Posts"
+  translation: "Show Full Posts"
 - id: olderPosts
   translation: "Older Posts"
 - id: newerPosts
