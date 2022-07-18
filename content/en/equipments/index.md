@@ -132,6 +132,23 @@ thumbnail: "/equipments.jpg"
     - ISO Min: 100 (Default)
     - ISO Max: 1600
     - Sharpness: Medium
+    - Color: Flat
+    - RAW Audio: Off (Default)
+    - Wind: Auto (Default)
+
+  - Standard Profile (Until 2022/07)
+
+    - Resolution: 4K
+    - FPS: 60
+    - Lens: Wide (Default)
+    - HyperSmooth: On (Default)
+    - Clips: Off (Default)
+    - Bit Rate: High
+    - EV Comp: 0
+    - White Balance: 6500K
+    - ISO Min: 100 (Default)
+    - ISO Max: 1600
+    - Sharpness: Medium
     - Color: GoPro
     - RAW Audio: Off (Default)
     - Wind: Auto (Default)
