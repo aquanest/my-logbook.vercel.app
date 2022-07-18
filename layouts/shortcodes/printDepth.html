@@ -7,7 +7,7 @@
     {{ $basePressure := float $dataJ.response.divelog.altitude }}
   {{ end }}
 
-  {{ $maxDepth := div ( add ( sub 0 (float $dataJ.response.divelog.max_pressure)) $basePressure ) 100 }}
+  {{ $maxDepth := $dataJ.response.divelog.max_depth }}
   {{ $avgDepth := $dataJ.response.divelog.average_depth }}
 
   <div>
