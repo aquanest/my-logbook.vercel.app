@@ -20,13 +20,13 @@ introSubtitle = "This is a logbook records my scuba divings."
 introTitle = "Hi 👋 I'm umatare5"
 
 [[languages.en.menu.main]]
-name = "Divelog"
-url = "blog"
+name = "Overview"
+url = "overview"
 weight = 1
 
 [[languages.en.menu.main]]
-name = "Overview"
-url = "overview"
+name = "Divelog"
+url = "blog"
 weight = 2
 
 [[languages.en.menu.main]]
