@@ -1,0 +1,46 @@
+{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
+
+{{ $length := len $dataJ.response.divelogs }}
+{{ $totalDivelogs := add $length 49 }}
+
+{{ $maxDepth := 0 }}
+{{ $maxDepthRegion := "" }}
+{{ $maxDepthLocation := "" }}
+{{ range $i, $v := $dataJ.response.divelogs }}
+  {{ if gt .max_depth $maxDepth }}
+    {{ $maxDepth = .max_depth }}
+    {{ $maxDepthRegion = .poi.poi_region }}
+    {{ $maxDepthLocation = .poi.poi_name }}
+  {{ end }}
+{{ end }}
+
+{{ $maxDiveTime := 0 }}
+{{ $maxDiveTimeRegion := "" }}
+{{ $maxDiveTimeLocation := "" }}
+{{ range $i, $v := $dataJ.response.divelogs }}
+  {{ if gt .dive_duration $maxDiveTime }}
+    {{ $maxDiveTime = .dive_duration }}
+    {{ $maxDiveTimeRegion = .poi.poi_region }}
+    {{ $maxDiveTimeLocation = .poi.poi_name }}
+  {{ end }}
+{{ end }}
+
+{{ $diveTimeMinutes := math.Floor (div $maxDiveTime 60) }}
+{{ $diveTimeSeconds := mod $maxDiveTime 60 }}
+
+<table>
+  <div>
+    <tr>
+      <th width="150">Total Dives</th>
+      <td>{{ $totalDivelogs }}</td>
+    </tr>
+    <tr>
+      <th>Max Depth</th>
+      <td>-{{ $maxDepth }}m ({{ $maxDepthRegion }} - {{ $maxDepthLocation }})</td>
+    </tr>
+    <tr>
+      <th>Max Dive Time</th>
+      <td>{{ $diveTimeMinutes }} minutes {{ $diveTimeSeconds }} seconds ({{ $maxDiveTimeRegion }} - {{ $maxDiveTimeLocation }})</td>
+    </tr>
+  </div>
+</table>

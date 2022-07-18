@@ -1,0 +1,36 @@
+{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
+{{ $length := len $dataJ.response.divelogs }}
+
+<table class="divelogSummary">
+  <div>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Region</th>
+      <th>Location</th>
+      <th>Dive Time</th>
+      <th>Max Depth</th>
+    </tr>
+
+  {{ range $i, $v := $dataJ.response.divelogs }}
+
+  {{ $divelogNumber := add (sub $length $i) 49 }}
+  {{ $diveTimeMinutes := math.Floor (div .dive_duration 60) }}
+  {{ $diveTimeSeconds := mod .dive_duration 60 }}
+  {{ $pointRegion := .poi.poi_region }}
+  {{ $pointName := .poi.poi_name }}
+  {{ $maxDepth := .max_depth }}
+  {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
+
+    <tr>
+      <td><a href="https://dives.dev/blog/{{ $divelogNumber }}/">#{{ $divelogNumber }}</a></td>
+      <td>{{ $diveDate }}</td>
+      <td style="padding-left: 0px">{{ $pointRegion }}</td>
+      <td style="padding-left: 0px">{{ $pointName }}</td>
+      <td style="padding-left: 0px">{{ $diveTimeMinutes }}m{{ $diveTimeSeconds }}s</td>
+      <td style="padding-left: 0px">-{{ $maxDepth }}m</td>
+    </tr>
+
+  {{ end }}
+  </div>
+</table>

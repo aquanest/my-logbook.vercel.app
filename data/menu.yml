@@ -1,6 +1,8 @@
-- item: Blog
+- item: Divelogs
   url: ""
 - item: Equipments
   url: equipments/
 - item: About
   url: about/
+- item: Overview
+  url: overview/
