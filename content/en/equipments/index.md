@@ -24,16 +24,14 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="setup">Setup</h2>
 
-- Weight (Steel tank)
+- Weight (Using steel tank)
 
-  - Wetsuit: 3kg
-  - Drysuit: 8kg
-
-  |      | Wetsuit  | Drysuit  |
-  | ---- | -------- | -------- |
-  | BCD  | None     | 1kg \* 2 |
-  | Vest | 1kg \* 3 | 1kg \* 4 |
-  | Foot | None     | 1kg \* 2 |
+  |             | Wetsuit  | Drysuit  |
+  | ----------- | -------- | -------- |
+  | BCD         | None     | 1kg \* 2 |
+  | Vest        | 1kg \* 3 | 1kg \* 4 |
+  | Foot        | None     | 1kg \* 2 |
+  | **: Total** | **3kg**  | **8kg**  |
 
 - Carry Style
 
