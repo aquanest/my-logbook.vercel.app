@@ -8,6 +8,6 @@ thumbnail: "/overview.jpg"
 
 {{< printDivelogStatistics >}}
 
-<h2 id="summary">Divelogs</h2>
+<h2 id="summary">Table of Contents</h2>
 
 {{< printDivelogSummary >}}
