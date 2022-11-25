@@ -1,0 +1,65 @@
+{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
+{{ $length := len $dataJ.response.divelogs }}
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script type="text/javascript">
+
+  // Attach your callback function to the `window` object
+  window.initMap = function () {
+
+    // Create a <script> tag and set the USGS URL as the source.
+    const script = document.createElement("script");
+
+    // Setup Map
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 5,
+      center: { lat: 31, lng: 134 },
+      disableDefaultUI: true,
+      mapTypeId: google.maps.MapTypeId.TERRAIN,
+    });
+
+    // Put markers
+    for (const [index, value] of Object.entries({{ $dataJ.response.divelogs }})) {
+      let divelogNumber = Number({{ $length }}) - Number(index) + 49
+      let divelogTitle = "#" + divelogNumber + " " + value.poi.poi_name + " -" + value.max_depth + "m"
+      let marker = new google.maps.Marker({
+        map: map,
+        title: divelogTitle,
+        position: new google.maps.LatLng(value.poi.gps_location.latitude, value.poi.gps_location.longitude),
+        animation: google.maps.Animation.DROP,
+        icon: createCircle(),
+      })
+
+      // Jump to divelog
+      google.maps.event.addListener(marker, 'click', (function (url) {
+        return function() { location.href = url; };
+      })("http://dives.dev/blog/" + divelogNumber));
+    }
+  };
+
+  function createCircle() {
+    return {
+      path: google.maps.SymbolPath.CIRCLE,
+      fillColor: "#F58220",
+      fillOpacity: 0.5,
+      scale: 6,
+      strokeColor: "white",
+      strokeWeight: 0.5,
+    };
+  }
+
+  window.initMap = initMap;
+</script>
+
+<div id="map" style="width:100%; height:400px"></div>
+
+<!--
+ The `defer` attribute causes the callback to execute after the full HTML
+ document has been parsed. For non-blocking uses, avoiding race conditions,
+ and consistent behavior across browsers, consider loading using Promises
+ with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+-->
+<script
+  src='https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.google.map.apikey }}&callback=initMap&v=weekly'
+  defer
+></script>

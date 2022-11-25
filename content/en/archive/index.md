@@ -8,6 +8,8 @@ thumbnail: "/archive.jpg"
 
 {{< printDivelogStatistics >}}
 
+{{< printDivesitesMap >}}
+
 <h2 id="summary">Table of Contents</h2>
 
 {{< printDivelogSummary >}}
