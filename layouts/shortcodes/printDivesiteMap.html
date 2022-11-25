@@ -16,7 +16,7 @@
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 16,
       center: { lat: {{ $latitude }}, lng: {{ $longitude }} },
-      mapTypeId: google.maps.MapTypeId.TERRAIN,
+      mapTypeId: google.maps.MapTypeId.SATELLITE,
       disableDefaultUI: true,
     });
 
@@ -25,7 +25,6 @@
       map: map,
       position: new google.maps.LatLng({{ $latitude }}, {{ $longitude }}),
       animation: google.maps.Animation.DROP,
-      icon: createCircle(),
     })
   };
 
