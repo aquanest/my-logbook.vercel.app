@@ -59,7 +59,6 @@
  and consistent behavior across browsers, consider loading using Promises
  with https://www.npmjs.com/package/@googlemaps/js-api-loader.
 -->
-<script
+<script async defer
   src='https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.google.map.apikey }}&callback=initMap&v=quarterly'
-  defer
 ></script>
