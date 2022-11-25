@@ -1,5 +1,7 @@
-{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
-{{ $length := len $dataJ.response.divelogs }}
+{{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
+
+{{ $latitude := $dataJ.response.divelog.poi.gps_location.latitude }}
+{{ $longitude := $dataJ.response.divelog.poi.gps_location.longitude }}
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script type="text/javascript">
@@ -12,46 +14,40 @@
 
     // Setup Map
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 5,
-      center: { lat: 31, lng: 134 },
-      disableDefaultUI: true,
+      zoom: 16,
+      center: { lat: {{ $latitude }}, lng: {{ $longitude }} },
       mapTypeId: google.maps.MapTypeId.TERRAIN,
+      disableDefaultUI: true,
     });
 
     // Put markers
-    for (const [index, value] of Object.entries({{ $dataJ.response.divelogs }})) {
-      let divelogNumber = Number({{ $length }}) - Number(index) + 49
-      let divelogTitle = "#" + divelogNumber + " " + value.poi.poi_name + " -" + value.max_depth + "m"
-      let marker = new google.maps.Marker({
-        map: map,
-        title: divelogTitle,
-        position: new google.maps.LatLng(value.poi.gps_location.latitude, value.poi.gps_location.longitude),
-        animation: google.maps.Animation.DROP,
-        icon: createCircle()
-      })
-
-      // Jump to divelog
-      google.maps.event.addListener(marker, 'click', (function (url) {
-        return function() { location.href = url; };
-      })("http://dives.dev/blog/" + divelogNumber));
-    }
+    let marker = new google.maps.Marker({
+      map: map,
+      position: new google.maps.LatLng({{ $latitude }}, {{ $longitude }}),
+      animation: google.maps.Animation.DROP,
+      icon: createCircle(),
+    })
   };
 
   function createCircle() {
     return {
       path: google.maps.SymbolPath.CIRCLE,
       fillColor: "#F58220",
-      fillOpacity: 0.5,
-      scale: 6,
+      fillOpacity: 1,
+      scale: 12,
       strokeColor: "white",
-      strokeWeight: 0.5,
+      strokeWeight: 1,
     };
   }
 
   window.initMap = initMap;
 </script>
 
-<div id="map" style="width:100%; height:400px"></div>
+<ul class="divesiteLocation">
+  <tr>
+    <div id="map" style="width:90%; height:300px; margin: 0 auto;"></div>
+  </tr>
+</ul>
 
 <!--
  The `defer` attribute causes the callback to execute after the full HTML
