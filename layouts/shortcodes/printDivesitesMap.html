@@ -40,8 +40,8 @@
 
       let infowindow = new google.maps.InfoWindow({
         content:
-          '<p><a style="text-decoration: none; color: black;" href="http://dives.dev/blog/' + divelogNumber + '">' +
-          divelogTitle + '<br>' + divelogStats + '</a></p>'
+          '<a style="text-decoration: none; color: black;" href="http://dives.dev/blog/' + divelogNumber + '">' +
+          divelogTitle + divelogStats + '</a>'
       });
 
       marker.addListener('click', function() {
