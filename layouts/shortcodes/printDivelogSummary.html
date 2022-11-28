@@ -1,8 +1,26 @@
 {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
 {{ $length := len $dataJ.response.divelogs }}
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+  $('tr[data-href]').on('click', function(){
+    location.href = $(this).data('href');
+  });
+});
+</script>
+
+<style type="text/css">
+   body > main > article > table.divelogSummary > tbody > tr:hover {
+     background: silver;
+     color: white;
+     cursor: pointer;
+   }
+</style>
+
 <table class="divelogSummary">
-  <div>
+  <thead>
     <tr>
       <th>#</th>
       <th style="padding-left: 0px;">Date</th>
@@ -11,6 +29,7 @@
       <th style="padding-left: 0px;">Dive Time</th>
       <th style="padding-left: 0px;">Max Depth</th>
     </tr>
+  </thead>
 
   {{ range $i, $v := $dataJ.response.divelogs }}
 
@@ -22,8 +41,9 @@
   {{ $maxDepth := .max_depth }}
   {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
 
-    <tr>
-      <td><a href="https://dives.dev/blog/{{ $divelogNumber }}/">#{{ $divelogNumber }}</a></td>
+  <div>
+    <tr data-href="https://dives.dev/blog/{{ $divelogNumber }}/">
+      <td>#{{ $divelogNumber }}</td>
       <td style="padding-left: 0px;">{{ $diveDate }}</td>
       <td style="padding-left: 0px;">{{ $pointRegion }}</td>
       <td style="padding-left: 0px;">{{ $pointName }}</td>

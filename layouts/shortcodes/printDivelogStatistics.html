@@ -29,7 +29,7 @@
 {{ $diveTimeSeconds := mod $maxDiveTime 60 }}
 
 <table>
-  <div>
+  <tbody>
     <tr>
       <th width="150">Total Dives</th>
       <td>{{ $totalDivelogs }}</td>
@@ -42,5 +42,5 @@
       <th>Max Dive Time</th>
       <td>{{ $diveTimeMinutes }} minutes {{ $diveTimeSeconds }} seconds ({{ $maxDiveTimeRegion }} - {{ $maxDiveTimeLocation }})</td>
     </tr>
-  </div>
+  </tbody>
 </table>
