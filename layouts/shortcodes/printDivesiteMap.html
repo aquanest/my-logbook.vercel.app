@@ -18,6 +18,10 @@
       center: { lat: {{ $latitude }}, lng: {{ $longitude }} },
       mapTypeId: google.maps.MapTypeId.HYBRID,
       disableDefaultUI: true,
+      scaleControl: true,
+      scaleControlOptions: {
+        position: google.maps.ControlPosition.BOTTOM_LEFT
+      },
     });
 
     // Put markers
