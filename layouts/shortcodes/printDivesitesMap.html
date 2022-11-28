@@ -34,13 +34,13 @@
         icon: createCircle()
       })
 
-      let infowindow = new google.maps.InfoWindow({ // 吹き出しの追加
+      let infowindow = new google.maps.InfoWindow({
         content:
           '<a style="text-decoration: none;" href="http://dives.dev/blog/' + divelogNumber + '">' +
           divelogTitle + '<br>' + divelogStats + '</a>'
       });
 
-      marker.addListener('click', function() { // マーカーをクリックしたとき
+      marker.addListener('click', function() {
         if (currentInfoWindow) {
           currentInfoWindow.close();
         }
