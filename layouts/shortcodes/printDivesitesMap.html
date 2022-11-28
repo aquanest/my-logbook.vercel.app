@@ -6,6 +6,7 @@
 
   // Attach your callback function to the `window` object
   window.initMap = function () {
+    let currentInfoWindow = null;
 
     // Create a <script> tag and set the USGS URL as the source.
     const script = document.createElement("script");
@@ -21,7 +22,10 @@
     // Put markers
     for (const [index, value] of Object.entries({{ $dataJ.response.divelogs }})) {
       let divelogNumber = Number({{ $length }}) - Number(index) + 49
-      let divelogTitle = "#" + divelogNumber + " " + value.poi.poi_name + " -" + value.max_depth + "m"
+      let diveTimeMinutes = Math.floor(value.dive_duration / 60);
+      let diveTimeSeconds =  Math.floor(value.dive_duration % 60);
+      let divelogTitle = "#" + divelogNumber + " " + value.poi.poi_region + " - " + value.poi.poi_name
+      let divelogStats = "time: " + diveTimeMinutes + "m" + diveTimeSeconds + "s / max: -" + value.max_depth + "m"
       let marker = new google.maps.Marker({
         map: map,
         title: divelogTitle,
@@ -30,10 +34,24 @@
         icon: createCircle()
       })
 
+      let infowindow = new google.maps.InfoWindow({ // 吹き出しの追加
+        content:
+          '<a style="text-decoration: none;" href="http://dives.dev/blog/' + divelogNumber + '">' +
+          divelogTitle + '<br>' + divelogStats + '</a>'
+      });
+
+      marker.addListener('click', function() { // マーカーをクリックしたとき
+        if (currentInfoWindow) {
+          currentInfoWindow.close();
+        }
+        infowindow.open(map, marker)
+        currentInfoWindow = infowindow;
+      });
+
       // Jump to divelog
-      google.maps.event.addListener(marker, 'click', (function (url) {
-        return function() { location.href = url; };
-      })("http://dives.dev/blog/" + divelogNumber));
+      // google.maps.event.addListener(marker, 'click', (function (url) {
+      //   return function() { location.href = url; };
+      // })("http://dives.dev/blog/" + divelogNumber));
     }
   };
 
@@ -42,7 +60,7 @@
       path: google.maps.SymbolPath.CIRCLE,
       fillColor: "#F58220",
       fillOpacity: 0.5,
-      scale: 6,
+      scale: 8,
       strokeColor: "white",
       strokeWeight: 0.5,
     };
