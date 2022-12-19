@@ -5,6 +5,7 @@
   {{ $diveTimeSeconds := mod $dataJ.response.divelog.dive_duration 60 }}
   {{ $pointName := $dataJ.response.divelog.poi.poi_name }}
   {{ $pointRegion := $dataJ.response.divelog.poi.poi_region }}
+
   {{ $diveDate := $dataJ.response.divelog.dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
   {{ $diveStartTime := $dataJ.response.divelog.dive_datetime | int | dateFormat "3:04 pm" }}
 
@@ -18,7 +19,11 @@
   <div>
     <tr>
       <th><span class="label label-blue">Point</span></th>
+      {{ if eq $pointName nil }}
+      <td>{{ $dataJ.response.divelog.notes }}</td>
+      {{ else }}
       <td>{{ $pointRegion }} - {{ $pointName }}</td>
+      {{ end }}
     </tr>
   </div>
 
