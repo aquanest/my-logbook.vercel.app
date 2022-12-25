@@ -36,8 +36,17 @@ $(function(){
   {{ $divelogNumber := add (sub $length $i) 49 }}
   {{ $diveTimeMinutes := math.Floor (div .dive_duration 60) }}
   {{ $diveTimeSeconds := mod .dive_duration 60 }}
+
   {{ $pointRegion := .poi.poi_region }}
+  {{ if eq $pointRegion nil }}
+    {{ $pointRegion = "N/A" }}
+  {{ end }}
+
   {{ $pointName := .poi.poi_name }}
+  {{ if eq $pointName nil }}
+    {{ $pointName = "N/A" }}
+  {{ end }}
+
   {{ $maxDepth := .max_depth }}
   {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
 

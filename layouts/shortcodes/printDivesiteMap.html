@@ -1,7 +1,14 @@
 {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelog/" (.Get 0) }}
 
 {{ $latitude := $dataJ.response.divelog.poi.gps_location.latitude }}
+{{ if eq $latitude nil }}
+  {{ $latitude = $dataJ.response.divelog.exit_position.latitude }}
+{{ end }}
+
 {{ $longitude := $dataJ.response.divelog.poi.gps_location.longitude }}
+{{ if eq $longitude nil }}
+  {{ $longitude = $dataJ.response.divelog.exit_position.longitude }}
+{{ end }}
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script type="text/javascript">

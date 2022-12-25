@@ -28,29 +28,46 @@
       let divelogNumber = Number({{ $length }}) - Number(index) + 49
       let diveTimeMinutes = Math.floor(value.dive_duration / 60);
       let diveTimeSeconds =  Math.floor(value.dive_duration % 60);
-      let divelogTitle = "#" + divelogNumber + " " + value.poi.poi_region + " - " + value.poi.poi_name
       let divelogStats = "time: " + diveTimeMinutes + "m" + diveTimeSeconds + "s / max: -" + value.max_depth + "m"
-      let marker = new google.maps.Marker({
-        map: map,
-        title: divelogTitle,
-        position: new google.maps.LatLng(value.poi.gps_location.latitude, value.poi.gps_location.longitude),
-        animation: google.maps.Animation.DROP,
-        icon: createCircle()
-      })
 
-      let infowindow = new google.maps.InfoWindow({
-        content:
-          '<a style="text-decoration: none; color: black;" href="http://dives.dev/blog/' + divelogNumber + '">' +
-          divelogTitle + '<br>' + divelogStats + '</a>'
-      });
+      let divelogTitle
+      if (value.poi?.poi_region) {
+        divelogTitle = "#" + divelogNumber + " " + value.poi.poi_region + " - " + value.poi.poi_name
+      }
 
-      marker.addListener('click', function() {
-        if (currentInfoWindow) {
-          currentInfoWindow.close();
-        }
-        infowindow.open(map, marker)
-        currentInfoWindow = infowindow;
-      });
+      let latitude
+      if (value.poi?.poi_region) {
+        latitude = value.poi.gps_location.latitude
+      }
+
+      let longitude
+      if (value.poi?.poi_region) {
+        longitude = value.poi.gps_location.longitude
+      }
+
+      if (divelogTitle) {
+        let marker = new google.maps.Marker({
+          map: map,
+          title: divelogTitle,
+          position: new google.maps.LatLng(latitude, longitude),
+          animation: google.maps.Animation.DROP,
+          icon: createCircle()
+        })
+
+        let infowindow = new google.maps.InfoWindow({
+          content:
+            '<a style="text-decoration: none; color: black;" href="http://dives.dev/blog/' + divelogNumber + '">' +
+            divelogTitle + '<br>' + divelogStats + '</a>'
+        });
+
+        marker.addListener('click', function() {
+          if (currentInfoWindow) {
+            currentInfoWindow.close();
+          }
+          infowindow.open(map, marker)
+          currentInfoWindow = infowindow;
+        });
+      }
     }
   };
 
