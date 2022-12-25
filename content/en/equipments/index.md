@@ -54,7 +54,7 @@ thumbnail: "/equipments.jpg"
 
   ### Others
 
-  - AROPEC Neoprene Skin Boatcoat 1.7mm ([Link](https://item.rakuten.co.jp/aqros/1000237/))
+  - AROPEC Neoprene Skin Boatcoat (1.7mm) ([Link](https://item.rakuten.co.jp/aqros/1000237/))
 
 <h3 id="gears">Gears</h2>
 
