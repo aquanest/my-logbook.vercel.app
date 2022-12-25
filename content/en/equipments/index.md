@@ -26,12 +26,12 @@ thumbnail: "/equipments.jpg"
 
 - Weight (Using steel tank)
 
-  |           | Wetsuit  | Drysuit  |
-  | --------- | -------- | -------- |
-  | BCD       | None     | 1kg \* 2 |
-  | Vest      | 1kg \* 3 | 1kg \* 4 |
-  | Foot      | None     | 1kg \* 2 |
-  | **Total** | **3kg**  | **8kg**  |
+  |           | Wetsuit  | Drysuit    |
+  | --------- | -------- | ---------- |
+  | BCD       | None     | 1kg \* 2   |
+  | Vest      | 1kg \* 3 | 1kg \* 5   |
+  | Foot      | None     | 0.5kg \* 2 |
+  | **Total** | **3kg**  | **8kg**    |
 
 - Carry Style
 
@@ -51,6 +51,10 @@ thumbnail: "/equipments.jpg"
 
   - World Dive Thermal Body Smoother Pullover ([Link](https://www.amazon.co.jp/dp/B00EUWJYUG))
   - World Dive Thermal Body Smoother Trousers ([Link](https://www.amazon.co.jp/dp/B00EUWC0ES))
+
+  ### Others
+
+  - AROPEC Neoprene Skin Boatcoat 1.7mm ([Link](https://item.rakuten.co.jp/aqros/1000237/))
 
 <h3 id="gears">Gears</h2>
 
