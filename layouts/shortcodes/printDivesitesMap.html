@@ -1,3 +1,5 @@
+{{ $dataPaperJ := getJSON "https://dives.dev/paperlogs.json" }}
+{{ $lengthPaperJ := len $dataPaperJ.response.divelogs }}
 {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
 {{ $length := len $dataJ.response.divelogs }}
 
@@ -14,7 +16,7 @@
     // Setup Map
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 5,
-      center: { lat: 31, lng: 134 },
+      center: { lat: 30.5, lng: 133 },
       disableDefaultUI: true,
       scaleControl: true,
       scaleControlOptions: {
@@ -57,6 +59,53 @@
         let infowindow = new google.maps.InfoWindow({
           content:
             '<a style="text-decoration: none; color: black;" href="http://dives.dev/blog/' + divelogNumber + '">' +
+            divelogTitle + '<br>' + divelogStats + '</a>'
+        });
+
+        marker.addListener('click', function() {
+          if (currentInfoWindow) {
+            currentInfoWindow.close();
+          }
+          infowindow.open(map, marker)
+          currentInfoWindow = infowindow;
+        });
+      }
+    }
+
+    // Put markers
+    for (const [index, value] of Object.entries({{ $dataPaperJ.response.divelogs }})) {
+      let divelogNumber = Number({{ $lengthPaperJ }}) - Number(index)
+      let diveTimeMinutes = Math.floor(value.dive_duration / 60);
+      let diveTimeSeconds =  Math.floor(value.dive_duration % 60);
+      let divelogStats = "time: " + diveTimeMinutes + "m" + diveTimeSeconds + "s / max: -" + value.max_depth + "m"
+
+      let divelogTitle
+      if (value.poi?.poi_region) {
+        divelogTitle = "#" + divelogNumber + " " + value.poi.poi_region + " - " + value.poi.poi_name
+      }
+
+      let latitude
+      if (value.poi?.poi_region) {
+        latitude = value.poi.gps_location.latitude
+      }
+
+      let longitude
+      if (value.poi?.poi_region) {
+        longitude = value.poi.gps_location.longitude
+      }
+
+      if (divelogTitle) {
+        let marker = new google.maps.Marker({
+          map: map,
+          title: divelogTitle,
+          position: new google.maps.LatLng(latitude, longitude),
+          animation: google.maps.Animation.DROP,
+          icon: createCircle()
+        })
+
+        let infowindow = new google.maps.InfoWindow({
+          content:
+            '<a style="text-decoration: none; color: black;">' +
             divelogTitle + '<br>' + divelogStats + '</a>'
         });
 

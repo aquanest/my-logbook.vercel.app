@@ -1,0 +1,643 @@
+{
+  "response": {
+    "divelogs": [
+      {
+        "max_depth": "25.0",
+        "dive_datetime": 1625876160,
+        "dive_duration": 3660,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "18.4",
+        "dive_datetime": 1624762200,
+        "dive_duration": 2450,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.726376,
+            "longitude": 139.34647
+          },
+          "poi_name": "王の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "20.2",
+        "dive_datetime": 1624753560,
+        "dive_duration": 2940,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "12.2",
+        "dive_datetime": 1624684980,
+        "dive_duration": 3060,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "18.1",
+        "dive_datetime": 1624674900,
+        "dive_duration": 3420,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "22.2",
+        "dive_datetime": 1624665060,
+        "dive_duration": 2700,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "17.3",
+        "dive_datetime": 1601777340,
+        "dive_duration": 2640,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.78956,
+            "longitude": 139.34561
+          },
+          "poi_name": "ケイカイ",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "13.4",
+        "dive_datetime": 1601769360,
+        "dive_duration": 3420,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79729,
+            "longitude": 139.3596
+          },
+          "poi_name": "野田浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "20.8",
+        "dive_datetime": 1601703360,
+        "dive_duration": 3960,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.726376,
+            "longitude": 139.34647
+          },
+          "poi_name": "王の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "18.5",
+        "dive_datetime": 1601692920,
+        "dive_duration": 3300,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.726376,
+            "longitude": 139.34647
+          },
+          "poi_name": "王の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "14.2",
+        "dive_datetime": 1601682960,
+        "dive_duration": 3420,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "25.0",
+        "dive_datetime": 1600481520,
+        "dive_duration": 2460,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "17.5",
+        "dive_datetime": 1600473360,
+        "dive_duration": 2460,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "28.5",
+        "dive_datetime": 1599974820,
+        "dive_duration": 3900,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "26.2",
+        "dive_datetime": 1599963300,
+        "dive_duration": 3540,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "28.7",
+        "dive_datetime": 1599954960,
+        "dive_duration": 3300,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79083,
+            "longitude": 139.40346
+          },
+          "poi_name": "秋の浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "15.8",
+        "dive_datetime": 1599941340,
+        "dive_duration": 1920,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.78956,
+            "longitude": 139.34561
+          },
+          "poi_name": "ケイカイ",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "12.8",
+        "dive_datetime": 1599875460,
+        "dive_duration": 3540,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.79729,
+            "longitude": 139.3596
+          },
+          "poi_name": "野田浜",
+          "poi_region": "大島"
+        }
+      },
+      {
+        "max_depth": "11.2",
+        "dive_datetime": 1565586960,
+        "dive_duration": 2640,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.427752,
+            "longitude": 131.22046
+          },
+          "poi_name": "船越・右の瀬",
+          "poi_region": "青海島"
+        }
+      },
+      {
+        "max_depth": "14.4",
+        "dive_datetime": 1565580840,
+        "dive_duration": 2700,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.427194,
+            "longitude": 131.21995
+          },
+          "poi_name": "船越・左の瀬",
+          "poi_region": "青海島"
+        }
+      },
+      {
+        "max_depth": "18.8",
+        "dive_datetime": 1535173860,
+        "dive_duration": 2700,
+        "poi": {
+          "gps_location": {
+            "latitude": 35.024975,
+            "longitude": 138.78796
+          },
+          "poi_name": "湾内",
+          "poi_region": "大瀬崎"
+        }
+      },
+      {
+        "max_depth": "23.0",
+        "dive_datetime": 1535166000,
+        "dive_duration": 2520,
+        "poi": {
+          "gps_location": {
+            "latitude": 35.024975,
+            "longitude": 138.78796
+          },
+          "poi_name": "湾内",
+          "poi_region": "大瀬崎"
+        }
+      },
+      {
+        "max_depth": "23.2",
+        "dive_datetime": 1535159400,
+        "dive_duration": 2880,
+        "poi": {
+          "gps_location": {
+            "latitude": 35.024975,
+            "longitude": 138.78796
+          },
+          "poi_name": "湾内",
+          "poi_region": "大瀬崎"
+        }
+      },
+      {
+        "max_depth": "18.8",
+        "dive_datetime": 1531537980,
+        "dive_duration": 2460,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.731525,
+            "longitude": 138.743
+          },
+          "poi_name": "牛着岩",
+          "poi_region": "雲見"
+        }
+      },
+      {
+        "max_depth": "18.2",
+        "dive_datetime": 1531529400,
+        "dive_duration": 2040,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.731525,
+            "longitude": 138.743
+          },
+          "poi_name": "牛着岩",
+          "poi_region": "雲見"
+        }
+      },
+      {
+        "max_depth": "22.4",
+        "dive_datetime": 1515992580,
+        "dive_duration": 3000,
+        "poi": {
+          "gps_location": {
+            "latitude": 7.1018083,
+            "longitude": 134.1018462
+          },
+          "poi_name": "Blue Corner",
+          "poi_region": "Palau"
+        }
+      },
+      {
+        "max_depth": "20.6",
+        "dive_datetime": 1515983700,
+        "dive_duration": 2940,
+        "poi": {
+          "gps_location": {
+            "latitude": 7.104583,
+            "longitude": 134.23737
+          },
+          "poi_name": "New Drop Off",
+          "poi_region": "Palau"
+        }
+      },
+      {
+        "max_depth": "19.4",
+        "dive_datetime": 1515977160,
+        "dive_duration": 3240,
+        "poi": {
+          "gps_location": {
+            "latitude": 7.1485524,
+            "longitude": 134.2408856
+          },
+          "poi_name": "German Channel",
+          "poi_region": "Palau"
+        }
+      },
+      {
+        "max_depth": "22.4",
+        "dive_datetime": 1515898980,
+        "dive_duration": 2520,
+        "poi": {
+          "gps_location": {
+            "latitude": 7.148304,
+            "longitude": 134.248498
+          },
+          "poi_name": "Glass Land",
+          "poi_region": "Palau"
+        }
+      },
+      {
+        "max_depth": "18.1",
+        "dive_datetime": 1515892860,
+        "dive_duration": 2880,
+        "poi": {
+          "gps_location": {
+            "latitude": 7.291163,
+            "longitude": 134.25368
+          },
+          "poi_name": "Ulong Cliff",
+          "poi_region": "Palau"
+        }
+      },
+      {
+        "max_depth": "16.8",
+        "dive_datetime": 1504939140,
+        "dive_duration": 3060,
+        "poi": {
+          "gps_location": {
+            "latitude": 33.447872,
+            "longitude": 135.7428
+          },
+          "poi_name": "グラスワールド",
+          "poi_region": "串本"
+        }
+      },
+      {
+        "max_depth": "15.6",
+        "dive_datetime": 1504931400,
+        "dive_duration": 3300,
+        "poi": {
+          "gps_location": {
+            "latitude": 33.453747,
+            "longitude": 135.7484
+          },
+          "poi_name": "住崎",
+          "poi_region": "串本"
+        }
+      },
+      {
+        "max_depth": "11.6",
+        "dive_datetime": 1504416840,
+        "dive_duration": 2460,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "5.8",
+        "dive_datetime": 1504408320,
+        "dive_duration": 1560,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "4.4",
+        "dive_datetime": 1504404600,
+        "dive_duration": 1800,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "13.3",
+        "dive_datetime": 1504345440,
+        "dive_duration": 1860,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "28.1",
+        "dive_datetime": 1504323600,
+        "dive_duration": 2340,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.908318,
+            "longitude": 138.78299
+          },
+          "poi_name": "沈船",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "14.8",
+        "dive_datetime": 1500099900,
+        "dive_duration": 2400,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.975039,
+            "longitude": 139.139866
+          },
+          "poi_name": "白根北",
+          "poi_region": "伊東"
+        }
+      },
+      {
+        "max_depth": "25.0",
+        "dive_datetime": 1500093360,
+        "dive_duration": 2520,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.97651,
+            "longitude": 139.136953
+          },
+          "poi_name": "五島根",
+          "poi_region": "伊東"
+        }
+      },
+      {
+        "max_depth": "20.6",
+        "dive_datetime": 1500084000,
+        "dive_duration": 2400,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.972844,
+            "longitude": 139.140829
+          },
+          "poi_name": "白根南",
+          "poi_region": "伊東"
+        }
+      },
+      {
+        "max_depth": "12.8",
+        "dive_datetime": 1491645180,
+        "dive_duration": 3420,
+        "poi": {
+          "gps_location": {
+            "latitude": 24.339163,
+            "longitude": 124.0973
+          },
+          "poi_name": "竹富島北",
+          "poi_region": "石垣島"
+        }
+      },
+      {
+        "max_depth": "15.1",
+        "dive_datetime": 1491627180,
+        "dive_duration": 2580,
+        "poi": {
+          "gps_location": {
+            "latitude": 24.495272,
+            "longitude": 124.11804
+          },
+          "poi_name": "マンタスクランブル",
+          "poi_region": "石垣島"
+        }
+      },
+      {
+        "max_depth": "17.6",
+        "dive_datetime": 1491618660,
+        "dive_duration": 2700,
+        "poi": {
+          "gps_location": {
+            "latitude": 24.499067,
+            "longitude": 124.1121
+          },
+          "poi_name": "マンタシティ",
+          "poi_region": "石垣島"
+        }
+      },
+      {
+        "max_depth": "17.2",
+        "dive_datetime": 1491611280,
+        "dive_duration": 2820,
+        "poi": {
+          "gps_location": {
+            "latitude": 24.30254,
+            "longitude": 124.124855
+          },
+          "poi_name": "名蔵湾モエギドロップ",
+          "poi_region": "石垣島"
+        }
+      },
+      {
+        "max_depth": "13.6",
+        "dive_datetime": 1491544380,
+        "dive_duration": 3060,
+        "poi": {
+          "gps_location": {
+            "latitude": 24.339163,
+            "longitude": 124.0973
+          },
+          "poi_name": "竹富島北",
+          "poi_region": "石垣島"
+        }
+      },
+      {
+        "max_depth": "11.0",
+        "dive_datetime": 1476589980,
+        "dive_duration": 2520,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "11.4",
+        "dive_datetime": 1476582900,
+        "dive_duration": 1920,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "9.4",
+        "dive_datetime": 1476510180,
+        "dive_duration": 2220,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      },
+      {
+        "max_depth": "7.3",
+        "dive_datetime": 1476500580,
+        "dive_duration": 1200,
+        "poi": {
+          "gps_location": {
+            "latitude": 34.90511,
+            "longitude": 138.78364
+          },
+          "poi_name": "通り崎",
+          "poi_region": "土肥"
+        }
+      }
+    ]
+  }
+}

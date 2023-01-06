@@ -1,3 +1,4 @@
+{{ $dataPaperJ := getJSON "https://dives.dev/paperlogs.json" }}
 {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
 {{ $length := len $dataJ.response.divelogs }}
 
@@ -59,7 +60,36 @@ $(function(){
       <td style="padding-left: 0px;">{{ $diveTimeMinutes }}m{{ $diveTimeSeconds }}s</td>
       <td style="padding-left: 0px;">-{{ $maxDepth }}m</td>
     </tr>
+  {{ end }}
 
+  {{ range $i, $v := $dataPaperJ.response.divelogs }}
+
+  {{ $divelogNumber := sub 50 $i }}
+  {{ $diveTimeMinutes := math.Floor (div .dive_duration 60) }}
+  {{ $diveTimeSeconds := mod .dive_duration 60 }}
+
+  {{ $pointRegion := .poi.poi_region }}
+  {{ if eq $pointRegion nil }}
+    {{ $pointRegion = "N/A" }}
+  {{ end }}
+
+  {{ $pointName := .poi.poi_name }}
+  {{ if eq $pointName nil }}
+    {{ $pointName = "N/A" }}
+  {{ end }}
+
+  {{ $maxDepth := .max_depth }}
+  {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
+
+  <div>
+    <tr>
+      <td style="padding-left: 3px;">#{{ $divelogNumber }}</td>
+      <td style="padding-left: 0px;">{{ $diveDate }}</td>
+      <td style="padding-left: 0px;">{{ $pointRegion }}</td>
+      <td style="padding-left: 0px;">{{ $pointName }}</td>
+      <td style="padding-left: 0px;">{{ $diveTimeMinutes }}m{{ $diveTimeSeconds }}s</td>
+      <td style="padding-left: 0px;">-{{ $maxDepth }}m</td>
+    </tr>
   {{ end }}
   </div>
 </table>
