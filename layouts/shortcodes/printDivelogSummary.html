@@ -64,7 +64,7 @@ $(function(){
 
   {{ range $i, $v := $dataPaperJ.response.divelogs }}
 
-  {{ $divelogNumber := sub 50 $i }}
+  {{ $divelogNumber := sub 49 $i }}
   {{ $diveTimeMinutes := math.Floor (div .dive_duration 60) }}
   {{ $diveTimeSeconds := mod .dive_duration 60 }}
 
