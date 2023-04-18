@@ -24,7 +24,7 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="setup">Setup</h2>
 
-- Weight (Using steel tank)
+- Weights
 
   |           | Wetsuit  | Drysuit    |
   | --------- | -------- | ---------- |
@@ -37,9 +37,13 @@ thumbnail: "/equipments.jpg"
 
   |          | Left  | Right  |
   | -------- | ----- | ------ |
-  | Hand     | Light | Free   |
-  | Hook     | Free  | Camera |
-  | Shoulder | GoPro | Free   |
+  | Hand     | Free  | Free   |
+  | Hook     | Light | Camera |
+  | Shoulder | Free  | Free   |
+
+- Dry Suits
+
+  - World Dive Size ML
 
 <h3 id="wears">Wears</h2>
 
@@ -74,7 +78,11 @@ thumbnail: "/equipments.jpg"
 
 - SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
 
-  And INON UCL-90 M67 Close-up Lens ([Link](http://www.inon.co.jp/products/lens/ucl90m67/spec.html))
+  - AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe ([Link](http://www.fisheye-jp.com/products/ucs_q1_rc.html))
+
+    with INON Clamp 3 ([Link](http://www.inon.co.jp/products/armsystem/components.html)) and INON Shoebase BALL ([Link](http://www.inon.co.jp/products/armsystem/shoebase.html))
+
+  - INON UCL-90 M67 Close-up Lens ([Link](http://www.inon.co.jp/products/lens/ucl90m67/spec.html))
 
   <details><summary>Settings</summary>
 
@@ -114,8 +122,6 @@ thumbnail: "/equipments.jpg"
   </details>
 
 - GoPro HERO8 ([Link](https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html)) with Protective Housing ([Link](https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html))
-
-  Hold by SUREWO Backpack Shoulder Strap Mount ([Link](https://www.amazon.co.jp/dp/B0975S3CPJ))
 
   <details><summary>Settings</summary>
 
