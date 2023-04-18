@@ -30,7 +30,7 @@ thumbnail: "/equipments.jpg"
   | --------- | -------- | ---------- |
   | BCD       | None     | 1kg \* 2   |
   | Vest      | 1kg \* 3 | 1kg \* 5   |
-  | Foot      | None     | 0.5kg \* 2 |
+  | Ankle     | None     | 0.5kg \* 2 |
   | **Total** | **3kg**  | **8kg**    |
 
 - Carry Style
