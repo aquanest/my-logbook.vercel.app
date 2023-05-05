@@ -47,6 +47,24 @@
         longitude = value.poi.gps_location.longitude
       }
 
+      if (divelogNumber === 142 || divelogNumber === 146) {
+        divelogTitle = "#" + divelogNumber + " 浮島 - ノースエンド"
+        latitude = 35.111385
+        longitude = 139.81601
+      }
+
+      if (divelogNumber === 143 || divelogNumber === 145) {
+        divelogTitle = "#" + divelogNumber + " 浮島 - ボッケ"
+        latitude = 35.107224
+        longitude = 139.81406
+      }
+
+      if (divelogNumber === 144) {
+        divelogTitle = "#" + divelogNumber + " 浮島 - メイン"
+        latitude = 35.110000
+        longitude = 139.81650
+      }
+
       if (divelogTitle) {
         let marker = new google.maps.Marker({
           map: map,

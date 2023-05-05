@@ -48,6 +48,29 @@ $(function(){
     {{ $pointName = "N/A" }}
   {{ end }}
 
+  <!-- Complete non PADI points -->
+  {{ if eq $divelogNumber 142 }}
+    {{ $pointRegion = "浮島" }}
+    {{ $pointName = "ノースエンド" }}
+  {{ end }}
+  {{ if eq $divelogNumber 143 }}
+    {{ $pointRegion = "浮島" }}
+    {{ $pointName = "ボッケ" }}
+  {{ end }}
+  {{ if eq $divelogNumber 144 }}
+    {{ $pointRegion = "浮島" }}
+    {{ $pointName = "メイン" }}
+  {{ end }}
+  {{ if eq $divelogNumber 145 }}
+    {{ $pointRegion = "浮島" }}
+    {{ $pointName = "ボッケ" }}
+  {{ end }}
+  {{ if eq $divelogNumber 146 }}
+    {{ $pointRegion = "浮島" }}
+    {{ $pointName = "ノースエンド" }}
+  {{ end }}
+  <!-- End of completion -->
+
   {{ $maxDepth := .max_depth }}
   {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
 
