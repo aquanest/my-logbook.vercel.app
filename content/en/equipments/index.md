@@ -216,3 +216,4 @@ thumbnail: "/equipments.jpg"
 - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
 - [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
 - [When to Change ISO Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
+- [The Ultimate Guide to Underwater Strobe Positioning](https://www.housingcamera.com/blog/guides-tutorials/ultimate-guide-underwater-strobe-positioning)
