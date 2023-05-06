@@ -17,7 +17,7 @@ thumbnail: "/about.jpg"
 
 umatare5 (Koshu T.)
 
-{{< github >}}{{< instagram >}}
+{{< social_icons >}}
 
 - umatare5 is an SRE working in Japan.
 

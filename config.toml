@@ -53,9 +53,13 @@ ascentColor = "bg-blue-100"
 [params.homepage.social]
 # Global params common for both languages
 description = "Repos related to this page and travel memories"
-github = "https://github.com/umatare5"
-instagram = "https://www.instagram.com/um1vva1120"
 title = "Links"
+[[params.homepage.social.icons]]
+url = "https://github.com/umatare5"
+website = "github"
+[[params.homepage.social.icons]]
+url = "https://www.instagram.com/um1vva1120"
+website = "instagram"
 
 [[menu.main]]
 name = "About"
