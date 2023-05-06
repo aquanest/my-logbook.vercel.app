@@ -6,10 +6,10 @@ thumbnail: "/archive.jpg"
 
 <h2 id="Statistics">Statistics</h2>
 
-{{< printDivelogStatistics >}}
+{{< printArchiveStatistics >}}
 
-{{< printDivesitesMap >}}
+{{< renderArchiveDivesiteMap >}}
 
 <h2 id="summary">Table of Contents</h2>
 
-{{< printDivelogSummary >}}
+{{< printArchiveTableOfContents >}}
