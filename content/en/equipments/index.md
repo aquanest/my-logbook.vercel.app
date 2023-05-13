@@ -121,7 +121,7 @@ thumbnail: "/equipments.jpg"
 
   </details>
 
-<details><summary>Old Devices</summary>
+<details><summary>Used before</summary>
 
 - GoPro HERO8 (<a href="https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html">Link</a>)
 
