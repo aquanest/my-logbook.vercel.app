@@ -49,40 +49,40 @@ thumbnail: "/equipments.jpg"
 
 - Custom Neoprene Wetsuit Long Sleeve Jacket (3mm)
 - Custom Neoprene Wetsuit Long John (3mm)
-- MOBBY'S Men's Warm Plus Long Pants (1mm) ([Link](https://www.mobby.co.jp/products/warm_plus_men_lp/))
+- MOBBY'S Men's Warm Plus Long Pants (1mm) (<a href="https://www.mobby.co.jp/products/warm_plus_men_lp/">Link</a>)
 
   ### Drysuit Inners
 
-  - World Dive Thermal Body Smoother Pullover ([Link](https://www.amazon.co.jp/dp/B00EUWJYUG))
-  - World Dive Thermal Body Smoother Trousers ([Link](https://www.amazon.co.jp/dp/B00EUWC0ES))
+  - World Dive Thermal Body Smoother Pullover (<a href="https://www.amazon.co.jp/dp/B00EUWJYUG">Link</a>)
+  - World Dive Thermal Body Smoother Trousers (<a href="https://www.amazon.co.jp/dp/B00EUWC0ES">Link</a>)
 
   ### Others
 
-  - AROPEC Neoprene Skin Boatcoat (1.7mm) ([Link](https://item.rakuten.co.jp/aqros/1000237/))
+  - AROPEC Neoprene Skin Boatcoat (1.7mm) (<a href="https://item.rakuten.co.jp/aqros/1000237/">Link</a>)
 
 <h3 id="gears">Gears</h2>
 
-- Fin: GULL MEW CYPHER ([Link](https://gull.kinugawa-net.co.jp/products/fins/mewcypher/))
-- Boots: GULL GS Boots ([Link](https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/))
-- Mask: TUSA Zensee Pro Mask ([Link](https://tusa.com/us-en/TUSA/Masks/Zensee_Pro_Mask))
-- Gloves: TOOLS Super Stretch Surf Gloves ([Link](https://www.amazon.co.jp/dp/B00GCYSAZU))
+- Fin: GULL MEW CYPHER (<a href="https://gull.kinugawa-net.co.jp/products/fins/mewcypher/">Link</a>)
+- Boots: GULL GS Boots (<a href="https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/">Link</a>)
+- Mask: TUSA Zensee Pro Mask (<a href="https://tusa.com/us-en/TUSA/Masks/Zensee_Pro_Mask">Link</a>)
+- Gloves: TOOLS Super Stretch Surf Gloves (<a href="https://www.amazon.co.jp/dp/B00GCYSAZU">Link</a>)
 
 <h3 id="accessories">Accessories</h2>
 
-- Computer: ATMOS MISSION ONE ([Link](https://www.atmos.app/missionone/))
-- Light: TOVATEC FUSION 1050 ([Link](https://tovatec.com/collections/lights/products/fus1050))
-- Vest: World Dive Weight Vest Ver.2 ([Link](https://www.amazon.co.jp/dp/B00EVEKSZI/))
-- Other: TOOLS Magic Heater ([Link](https://www.amazon.co.jp/dp/B00PRM3IAK))
+- Computer: ATMOS MISSION ONE (<a href="https://www.atmos.app/missionone/">Link</a>)
+- Light: TOVATEC FUSION 1050 (<a href="https://tovatec.com/collections/lights/products/fus1050">Link</a>)
+- Vest: World Dive Weight Vest Ver.2 (<a href="https://www.amazon.co.jp/dp/B00EVEKSZI/">Link</a>)
+- Other: TOOLS Magic Heater (<a href="https://www.amazon.co.jp/dp/B00PRM3IAK">Link</a>)
 
 <h3 id="cameras">Cameras</h2>
 
-- SONY DSC-RX100M5A ([Link](https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html)) with MPK-URX100A ([Link](https://www.sony.jp/cyber-shot/products/MPK-URX100A/))
+- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
 
-  - AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe ([Link](http://www.fisheye-jp.com/products/ucs_q1_rc.html))
+  - AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe (<a href="http://www.fisheye-jp.com/products/ucs_q1_rc.html">Link</a>)
 
-    with INON Clamp 3 ([Link](http://www.inon.co.jp/products/armsystem/components.html)) and INON Shoebase BALL ([Link](http://www.inon.co.jp/products/armsystem/shoebase.html))
+    with INON Clamp 3 (<a href="http://www.inon.co.jp/products/armsystem/components.html">Link</a>) and INON Shoebase BALL (<a href="http://www.inon.co.jp/products/armsystem/shoebase.html">Link</a>)
 
-  - INON UCL-90 M67 Close-up Lens ([Link](http://www.inon.co.jp/products/lens/ucl90m67/spec.html))
+  - INON UCL-90 M67 Close-up Lens (<a href="http://www.inon.co.jp/products/lens/ucl90m67/spec.html">Link</a>)
 
   <details><summary>Settings</summary>
 
@@ -121,9 +121,9 @@ thumbnail: "/equipments.jpg"
 
   </details>
 
-- GoPro HERO8 ([Link](https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html)) with Protective Housing ([Link](https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html))
+<details><summary>Old Devices</summary>
 
-  <details><summary>Settings</summary>
+- GoPro HERO8 (<a href="https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html">Link</a>)
 
   - Software Version: 2.51
 
@@ -150,45 +150,7 @@ thumbnail: "/equipments.jpg"
     - RAW Audio: Off (Default)
     - Wind: Auto (Default)
 
-  - Standard Profile (Until 2022/07)
-
-    - Resolution: 4K
-    - FPS: 60
-    - Lens: Wide (Default)
-    - HyperSmooth: On (Default)
-    - Clips: Off (Default)
-    - Bit Rate: High
-    - EV Comp: 0
-    - White Balance: 6500K
-    - ISO Min: 100 (Default)
-    - ISO Max: 1600
-    - Sharpness: Medium
-    - Color: GoPro
-    - RAW Audio: Off (Default)
-    - Wind: Auto (Default)
-
-  - Standard Profile (Until 2022/06)
-
-    - Resolution: 4K
-    - FPS: 60
-    - Lens: Wide (Default)
-    - HyperSmooth: On (Default)
-    - Clips: Off (Default)
-    - Bit Rate: High
-    - EV Comp: -0.5
-    - White Balance: 5000K
-    - ISO Min: 100 (Default)
-    - ISO Max: 100
-    - Sharpness: Medium
-    - Color: Flat
-    - RAW Audio: Off (Default)
-    - Wind: Auto (Default)
-
-  </details>
-
-- [Stock] Nikon COOLPIX W300 ([Link](https://www.nikon-image.com/products/compact/lineup/w300/spec.html))
-
-    <details><summary>Settings</summary>
+- Nikon COOLPIX W300 (<a href="https://www.nikon-image.com/products/compact/lineup/w300/spec.html">Link</a>)
 
   - Software Version: 1.5
 
@@ -209,7 +171,7 @@ thumbnail: "/equipments.jpg"
     - Auto Off: 1m
       LED Light Timer: 5m
 
-    </details>
+  </details>
 
 <h3 id="references">References</h3>
 
