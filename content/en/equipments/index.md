@@ -64,7 +64,7 @@ thumbnail: "/equipments.jpg"
 
 - Fin: GULL MEW CYPHER ([Link](https://gull.kinugawa-net.co.jp/products/fins/mewcypher/))
 - Boots: GULL GS Boots ([Link](https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/))
-- Mask: GULL VADER ([Link](https://gull.kinugawa-net.co.jp/products/mask/vader/))
+- Mask: TUSA Zensee Pro ([Link](https://tusa.com/us-en/TUSA/Masks/Zensee_Pro_Mask))
 - Gloves: TOOLS Super Stretch Surf Gloves ([Link](https://www.amazon.co.jp/dp/B00GCYSAZU))
 
 <h3 id="accessories">Accessories</h2>
