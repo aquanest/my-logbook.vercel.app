@@ -69,7 +69,7 @@ url = "/about"
 writeStats = true
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
 
 # syntax highlight settings
 [markup]
