@@ -69,6 +69,10 @@ $(function(){
     {{ $pointRegion = "浮島" }}
     {{ $pointName = "ノースエンド" }}
   {{ end }}
+  {{ if eq $divelogNumber 169 }}
+    {{ $pointRegion = "八丈島" }}
+    {{ $pointName = "カンナギ" }}
+  {{ end }}
   <!-- End of completion -->
 
   {{ $maxDepth := .max_depth }}
