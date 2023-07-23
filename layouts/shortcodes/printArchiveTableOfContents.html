@@ -73,6 +73,14 @@ $(function(){
     {{ $pointRegion = "八丈島" }}
     {{ $pointName = "カンナギ" }}
   {{ end }}
+  {{ if eq $divelogNumber 171 }}
+    {{ $pointRegion = "本島中部" }}
+    {{ $pointName = "ウドゥイガマ" }}
+  {{ end }}
+  {{ if eq $divelogNumber 172 }}
+    {{ $pointRegion = "本島中部" }}
+    {{ $pointName = "ウドゥイガマ" }}
+  {{ end }}
   <!-- End of completion -->
 
   {{ $maxDepth := .max_depth }}

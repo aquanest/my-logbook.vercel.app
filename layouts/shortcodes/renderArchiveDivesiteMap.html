@@ -71,6 +71,12 @@
         longitude = 139.681213
       }
 
+      if (divelogNumber === 171 || divelogNumber === 172) {
+        divelogTitle = "#" + divelogNumber + " 本島中部 - ウドゥイガマ"
+        latitude = 26.502504
+        longitude = 127.841357
+      }
+
       if (divelogTitle) {
         let marker = new google.maps.Marker({
           map: map,
