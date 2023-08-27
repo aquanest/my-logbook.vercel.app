@@ -77,6 +77,10 @@
         longitude = 127.841357
       }
 
+      if (divelogNumber === 177 || divelogNumber === 179) {
+        divelogTitle = "#" + divelogNumber + " 砂辺・No1"
+      }
+
       if (divelogTitle) {
         let marker = new google.maps.Marker({
           map: map,

@@ -81,6 +81,12 @@ $(function(){
     {{ $pointRegion = "本島中部" }}
     {{ $pointName = "ウドゥイガマ" }}
   {{ end }}
+  {{ if eq $divelogNumber 177 }}
+    {{ $pointName = "砂辺・No1" }}
+  {{ end }}
+  {{ if eq $divelogNumber 179 }}
+    {{ $pointName = "砂辺・No1" }}
+  {{ end }}
   <!-- End of completion -->
 
   {{ $maxDepth := .max_depth }}
