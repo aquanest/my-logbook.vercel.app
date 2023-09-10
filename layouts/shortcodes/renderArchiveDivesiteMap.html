@@ -81,6 +81,12 @@
         divelogTitle = "#" + divelogNumber + " 本島中部 - 砂辺・No1"
       }
 
+      if (divelogNumber === 183) {
+        divelogTitle = "#" + divelogNumber + " 八丈島 - カンナギ"
+        latitude = 33.115267
+        longitude = 139.681213
+      }
+
       if (divelogTitle) {
         let marker = new google.maps.Marker({
           map: map,
