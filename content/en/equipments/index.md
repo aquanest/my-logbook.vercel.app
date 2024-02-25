@@ -131,7 +131,7 @@ thumbnail: "/equipments.jpg"
       5. Wait two lights blink blue-blue
       6. Change shutter mode to drive mode
 
-  - References
+  - **References**
 
     - [(Japanese: Feb. 2023) OM-1 is the best for underwater photograph](https://jp.omsystem.com/product/dslr/om-omd/om/om1/special/review/shimizu-jun/index.html)
     - [(Japanese: Sep. 2023) Recommended Macro Lenses and Photography Methods](https://oceana.ne.jp/diving/138887)
