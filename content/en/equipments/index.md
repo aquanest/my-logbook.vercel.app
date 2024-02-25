@@ -122,7 +122,7 @@ thumbnail: "/equipments.jpg"
     - AF Target: Cross
     - RC Mode: Off
 
-    - 💡 Use Pre flash cancel mode with drive mode
+      💡 Use Pre flash cancel mode with drive mode
 
       1. Set shutter mode to single shot
       2. Set the strobe dial to manual
