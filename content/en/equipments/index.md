@@ -106,26 +106,20 @@ thumbnail: "/equipments.jpg"
     - Buttom Customization:
       - ISO <- Object Recognition
     - White Balance: Auto
-
-  - **For Stopping Targets**
-
-    - Shutter Mode: Single
-    - ISO: Auto
-    - Shutter Speed: 1/250
-    - f</I>/2.8 - 4.0
-    - AF Target: Single
+    - Flash Optimization: -0.5
     - AF Mode: Continuous AF
-    - RC Mode: On
-      - Flash Optimization: -0.7
-
-  - **For Moving Targets**
-
-    - Shutter Mode: Drive
-    - f</I>/2.8 - 8.0
+    - Shutter Speed: 1/250
     - ISO: 200
-    - Shutter Speed: 1/250
+    - f</I>/2.8 - 8.0
+
+  - **Shutter Mode: Single**
+
+    - AF Target: Single
+    - RC Mode: On
+
+  - **Shutter Mode: Drive**
+
     - AF Target: Cross
-    - AF Mode: Continuous AF
     - RC Mode: Off
 
     - 💡 Use Pre flash cancel mode with drive mode
