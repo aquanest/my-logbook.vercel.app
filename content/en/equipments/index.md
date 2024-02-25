@@ -73,8 +73,10 @@ thumbnail: "/equipments.jpg"
 - Vest: World Dive Weight Vest Ver.2 (<a href="https://www.amazon.co.jp/dp/B00EVEKSZI/">Link</a>)
 
 <details><summary>Used before</summary>
-  - Light: TOVATEC FUSION 1050 (<a href="https://tovatec.com/collections/lights/products/fus1050">Link</a>)
-  - Other: TOOLS Magic Heater (<a href="https://www.amazon.co.jp/dp/B00PRM3IAK">Link</a>)
+
+- Light: TOVATEC FUSION 1050 (<a href="https://tovatec.com/collections/lights/products/fus1050">Link</a>)
+- Other: TOOLS Magic Heater (<a href="https://www.amazon.co.jp/dp/B00PRM3IAK">Link</a>)
+
 </details>
 
 <h3 id="cameras">Cameras</h2>
