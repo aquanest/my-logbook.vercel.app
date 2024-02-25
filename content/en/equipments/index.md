@@ -70,19 +70,83 @@ thumbnail: "/equipments.jpg"
 <h3 id="accessories">Accessories</h2>
 
 - Computer: ATMOS MISSION ONE (<a href="https://www.atmos.app/missionone/">Link</a>)
-- Light: TOVATEC FUSION 1050 (<a href="https://tovatec.com/collections/lights/products/fus1050">Link</a>)
 - Vest: World Dive Weight Vest Ver.2 (<a href="https://www.amazon.co.jp/dp/B00EVEKSZI/">Link</a>)
-- Other: TOOLS Magic Heater (<a href="https://www.amazon.co.jp/dp/B00PRM3IAK">Link</a>)
+
+<details><summary>Used before</summary>
+  - Light: TOVATEC FUSION 1050 (<a href="https://tovatec.com/collections/lights/products/fus1050">Link</a>)
+  - Other: TOOLS Magic Heater (<a href="https://www.amazon.co.jp/dp/B00PRM3IAK">Link</a>)
+</details>
 
 <h3 id="cameras">Cameras</h2>
 
-- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
+- OM Digital Solutions OM-1 (<a href="https://jp.omsystem.com/product/dslr/om-omd/om/om1/spec.html">Link</a>) with AOI UH-OM1-BLK (<a href="http://www.fisheye-jp.com/products/uh-om1-blk.html">Link</a>)
 
-  - AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe (<a href="http://www.fisheye-jp.com/products/ucs_q1_rc.html">Link</a>)
+  M.ZUIKO DIGITAL ED 60mm F2.8 Macro (<a href="https://jp.omsystem.com/product/lens/macro/60_28macro/index.html">Link</a>) with AOI FLP-02P (<a href="http://www.fisheye-jp.com/products/flp-02p.html">Link</a>)
 
-    with INON Clamp 3 (<a href="http://www.inon.co.jp/products/armsystem/components.html">Link</a>) and INON Shoebase BALL (<a href="http://www.inon.co.jp/products/armsystem/shoebase.html">Link</a>)
+  AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe (<a href="http://www.fisheye-jp.com/products/ucs_q1_rc.html">Link</a>)
+
+  with:
+
+  - INON Clamp 3 (<a href="http://www.inon.co.jp/products/armsystem/components.html">Link</a>)
+  - INON Stick Arm SS-T (<a href="https://www.inon.co.jp/products/armsystem/arm.html">Link</a>)
+  - INON Shoebase BALL (<a href="http://www.inon.co.jp/products/armsystem/shoebase.html">Link</a>)
 
   - INON UCL-90 M67 Close-up Lens (<a href="http://www.inon.co.jp/products/lens/ucl90m67/spec.html">Link</a>)
+
+  <details><summary>Settings</summary>
+
+  - **Software**
+
+    - Version: 1.5
+
+  - **Global Settings**
+
+    - Night Live View: On
+    - Object Recognition: Bird
+    - Buttom Customization:
+      - ISO <- Object Recognition
+    - White Balance: Auto
+
+  - **For Stopping Targets**
+
+    - Shutter Mode: Single
+    - ISO: Auto
+    - Shutter Speed: 1/250
+    - f</I>/2.8 - 4.0
+    - AF Target: Single
+    - AF Mode: Continuous AF
+    - RC Mode: On
+      - Flash Optimization: -0.7
+
+  - **For Moving Targets**
+
+    - Shutter Mode: Drive
+    - f</I>/2.8 - 8.0
+    - ISO: 200
+    - Shutter Speed: 1/250
+    - AF Target: Cross
+    - AF Mode: Continuous AF
+    - RC Mode: Off
+
+    - 💡 Use Pre flash cancel mode with drive mode
+
+      1. Set shutter mode to single shot
+      2. Set the strobe dial to manual
+      3. Boot the strobe
+      4. Send a flash signal once in single shot
+      5. Wait two lights blink blue-blue
+      6. Change shutter mode to drive mode
+
+  - References
+
+    - [(Japanese: Feb. 2023) OM-1 is the best for underwater photograph](https://jp.omsystem.com/product/dslr/om-omd/om/om1/special/review/shimizu-jun/index.html)
+    - [(Japanese: Sep. 2023) Recommended Macro Lenses and Photography Methods](https://oceana.ne.jp/diving/138887)
+    - [(Japanese: Nov. 2023) Macro Shooting of Fast Moving Fishes](https://oceana.ne.jp/diving/139707)
+    - [(Japanese: Feb. 2024) How to Photograph Nudibranchs: Part 1](https://oceana.ne.jp/diving/diving-equipment/141203)
+
+  </details>
+
+- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
 
   <details><summary>Settings</summary>
 
