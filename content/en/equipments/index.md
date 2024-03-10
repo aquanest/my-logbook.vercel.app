@@ -87,8 +87,6 @@ thumbnail: "/equipments.jpg"
 
   AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe (<a href="http://www.fisheye-jp.com/products/ucs_q1_rc.html">Link</a>)
 
-  with:
-
   - INON Clamp 3 (<a href="http://www.inon.co.jp/products/armsystem/components.html">Link</a>)
   - INON Stick Arm SS-T (<a href="https://www.inon.co.jp/products/armsystem/arm.html">Link</a>)
   - INON Shoebase BALL (<a href="http://www.inon.co.jp/products/armsystem/shoebase.html">Link</a>)
