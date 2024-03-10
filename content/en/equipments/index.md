@@ -92,7 +92,6 @@ thumbnail: "/equipments.jpg"
   - INON Clamp 3 (<a href="http://www.inon.co.jp/products/armsystem/components.html">Link</a>)
   - INON Stick Arm SS-T (<a href="https://www.inon.co.jp/products/armsystem/arm.html">Link</a>)
   - INON Shoebase BALL (<a href="http://www.inon.co.jp/products/armsystem/shoebase.html">Link</a>)
-
   - INON UCL-90 M67 Close-up Lens (<a href="http://www.inon.co.jp/products/lens/ucl90m67/spec.html">Link</a>)
 
   <details><summary>Settings</summary>
@@ -142,9 +141,80 @@ thumbnail: "/equipments.jpg"
 
   </details>
 
-- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
+- GoPro HERO11 (<a href="https://gopro.com/en/us/shop/cameras/hero11-black/CHDHX-111-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/protective-housing-plus-waterproof-case/ADDIV-001.html">Link</a>)
+
+  - INON D5 Holder (<a href="https://www.inon.co.jp/products/armsystem/d5base.html">Link</a>)
+  - INON SD Front Mask for HERO9 (<a href="https://www.inon.co.jp/products/gopro/hero/sdfrontmaskhero9.html">Link</a>)
+  - INON UFL-G140 SD Fish-eye Lens (<a href="https://www.inon.co.jp/products/gopro/uflg140sd.html">Link</a>)
 
   <details><summary>Settings</summary>
+
+  - **Software**
+
+    - Version: v2.20
+
+  - **Preferences**
+
+    - Auto Power Off: 1 Min
+    - Voice Control: Off
+    - GPS: Off
+    - Rear Screen Grid: On
+
+  - **Movie Profiles**
+
+    - **Common Parameters**
+
+      HyperSmooth: On
+      Scheduled Capture: Off
+      Duration: No Limit
+      HindSight: Off
+      Timer: Off
+      Zoom: 1.0x
+      Bit Rate: High
+      Shutter: Auto
+      EV Comp: 0
+      White Balance: Auto
+      ISO Min: 100
+      ISO Max: 400
+      Sharpness: Medium
+      Color: Natural
+      RAW Audito: Off
+      Wind: Off
+
+    - **Activity Profile**
+
+      RES / FPS: 1080 / 60
+      Lens: SuperView
+      10-Bit: N/A
+
+    - **Full Frame Profile**
+
+      RES / FPS: 4K / 60
+      Lens: Wide
+      10-Bit: On
+
+  - **Photo Profiles**
+
+    - **Linear**
+
+      Lens: Linear
+      Output: SuperPhoto
+      Scheduled Capture: Off
+      Timer: Off
+      Zoom: 1.0x
+      Shutter: N/A
+      EV Comp: N/A
+      White Balance: Auto
+      ISO Min: N/A
+      ISO Max: N/A
+      Sharpness: Medium
+      Color: Vibrant
+
+  </details>
+
+<details><summary>Used before</summary>
+
+- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
 
   - Software Version: 1.0
 
@@ -178,10 +248,6 @@ thumbnail: "/equipments.jpg"
   - Setup
 
     Pwr Save Start Time: 1 Min
-
-  </details>
-
-<details><summary>Used before</summary>
 
 - GoPro HERO8 (<a href="https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html">Link</a>)
 
@@ -231,7 +297,7 @@ thumbnail: "/equipments.jpg"
     - Auto Off: 1m
       LED Light Timer: 5m
 
-  </details>
+</details>
 
 <h3 id="references">References</h3>
 
