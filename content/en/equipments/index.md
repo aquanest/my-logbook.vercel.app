@@ -38,14 +38,14 @@ thumbnail: "/equipments.jpg"
   |          | Left  | Right  |
   | -------- | ----- | ------ |
   | Hand     | Free  | Free   |
-  | Hook     | Light | Camera |
-  | Shoulder | Free  | Free   |
+  | Hook     | Free  | Free   |
+  | Shoulder | GoPro | Camera |
 
 - Dry Suits
 
   - World Dive Size ML
 
-<h3 id="wears">Wears</h2>
+<h2 id="wears">Wears</h2>
 
 - Custom Neoprene Wetsuit Long Sleeve Jacket (3mm)
 - Custom Neoprene Wetsuit Long John (3mm)
@@ -60,14 +60,14 @@ thumbnail: "/equipments.jpg"
 
   - AROPEC Neoprene Skin Boatcoat (1.7mm) (<a href="https://item.rakuten.co.jp/aqros/1000237/">Link</a>)
 
-<h3 id="gears">Gears</h2>
+<h2 id="gears">Gears</h2>
 
 - Fin: GULL MEW CYPHER (<a href="https://gull.kinugawa-net.co.jp/products/fins/mewcypher/">Link</a>)
 - Boots: GULL GS Boots (<a href="https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/">Link</a>)
 - Mask: TUSA Zensee Pro Mask (<a href="https://tusa.com/us-en/TUSA/Masks/Zensee_Pro_Mask">Link</a>)
 - Gloves: TOOLS Super Stretch Surf Gloves (<a href="https://www.amazon.co.jp/dp/B00GCYSAZU">Link</a>)
 
-<h3 id="accessories">Accessories</h2>
+<h2 id="accessories">Accessories</h2>
 
 - Computer: ATMOS MISSION ONE (<a href="https://www.atmos.app/missionone/">Link</a>)
 - Vest: World Dive Weight Vest Ver.2 (<a href="https://www.amazon.co.jp/dp/B00EVEKSZI/">Link</a>)
@@ -79,7 +79,7 @@ thumbnail: "/equipments.jpg"
 
 </details>
 
-<h3 id="cameras">Cameras</h2>
+<h2 id="cameras">Cameras</h2>
 
 - OM Digital Solutions OM-1 (<a href="https://jp.omsystem.com/product/dslr/om-omd/om/om1/spec.html">Link</a>) with AOI UH-OM1-BLK (<a href="http://www.fisheye-jp.com/products/uh-om1-blk.html">Link</a>)
 
@@ -299,7 +299,7 @@ thumbnail: "/equipments.jpg"
 
 </details>
 
-<h3 id="references">References</h3>
+<h2 id="references">References</h2>
 
 - [When to Change Shutter Speed Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-iso-underwater)
 - [When to Change Aperture Underwater](https://www.ikelite.com/blogs/advanced-techniques/when-to-change-aperture-underwater)
