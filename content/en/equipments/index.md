@@ -162,51 +162,51 @@ thumbnail: "/equipments.jpg"
 
     - **Common Parameters**
 
-      HyperSmooth: On
-      Scheduled Capture: Off
-      Duration: No Limit
-      HindSight: Off
-      Timer: Off
-      Zoom: 1.0x
-      Bit Rate: High
-      Shutter: Auto
-      EV Comp: 0
-      White Balance: Auto
-      ISO Min: 100
-      ISO Max: 400
-      Sharpness: Medium
-      Color: Natural
-      RAW Audito: Off
-      Wind: Off
+      - HyperSmooth: On
+      - Scheduled Capture: Off
+      - Duration: No Limit
+      - HindSight: Off
+      - Timer: Off
+      - Zoom: 1.0x
+      - Bit Rate: High
+      - Shutter: Auto
+      - EV Comp: 0
+      - White Balance: Auto
+      - ISO Min: 100
+      - ISO Max: 400
+      - Sharpness: Medium
+      - Color: Natural
+      - RAW Audito: Off
+      - Wind: Off
 
     - **Activity Profile**
 
-      RES / FPS: 1080 / 60
-      Lens: SuperView
-      10-Bit: N/A
+      - RES / FPS: 1080 / 60
+      - Lens: SuperView
+      - 10-Bit: N/A
 
     - **Full Frame Profile**
 
-      RES / FPS: 4K / 60
-      Lens: Wide
-      10-Bit: On
+      - RES / FPS: 4K / 60
+      - Lens: Wide
+      - 10-Bit: On
 
   - **Photo Profiles**
 
     - **Linear**
 
-      Lens: Linear
-      Output: SuperPhoto
-      Scheduled Capture: Off
-      Timer: Off
-      Zoom: 1.0x
-      Shutter: N/A
-      EV Comp: N/A
-      White Balance: Auto
-      ISO Min: N/A
-      ISO Max: N/A
-      Sharpness: Medium
-      Color: Vibrant
+      - Lens: Linear
+      - Output: SuperPhoto
+      - Scheduled Capture: Off
+      - Timer: Off
+      - Zoom: 1.0x
+      - Shutter: N/A
+      - EV Comp: N/A
+      - White Balance: Auto
+      - ISO Min: N/A
+      - ISO Max: N/A
+      - Sharpness: Medium
+      - Color: Vibrant
 
   </details>
 
