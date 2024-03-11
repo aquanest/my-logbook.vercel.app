@@ -178,18 +178,17 @@ thumbnail: "/equipments.jpg"
       - Color: Natural
       - RAW Audito: Off
       - Wind: Off
+      - 10-Bit: On
 
     - **Activity Profile**
 
-      - RES / FPS: 1080 / 60
+      - RES / FPS: 4K 4:3 / 30
       - Lens: SuperView
-      - 10-Bit: N/A
 
     - **Full Frame Profile**
 
-      - RES / FPS: 4K / 60
+      - RES / FPS: 5.3K 8:7 / 30
       - Lens: Wide
-      - 10-Bit: On
 
   - **Photo Profiles**
 
