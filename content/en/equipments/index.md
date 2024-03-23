@@ -81,7 +81,9 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="cameras">Cameras</h2>
 
-- OM Digital Solutions OM-1 (<a href="https://jp.omsystem.com/product/dslr/om-omd/om/om1/spec.html">Link</a>) with AOI UH-OM1-BLK (<a href="http://www.fisheye-jp.com/products/uh-om1-blk.html">Link</a>)
+- OM Digital Solutions OM-1 (<a href="https://jp.omsystem.com/product/dslr/om-omd/om/om1/spec.html">Link</a>)
+  with AOI UH-OM1-BLK (<a href="http://www.fisheye-jp.com/products/uh-om1-blk.html">Link</a>)
+  and AOI LG-OM1-60MACRO Lens Gear (<a href="http://www.fisheye-jp.com/products/lg-om1-60macro.html">Link</a>)
 
   M.ZUIKO DIGITAL ED 60mm F2.8 Macro (<a href="https://jp.omsystem.com/product/lens/macro/60_28macro/index.html">Link</a>) with AOI FLP-02P (<a href="http://www.fisheye-jp.com/products/flp-02p.html">Link</a>)
 
