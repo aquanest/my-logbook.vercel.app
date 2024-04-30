@@ -34,9 +34,11 @@ $(function(){
 
   {{ range $i, $v := $dataJ.response.divelogs }}
 
+  {{ $divelogId := .divelog_id }}
   {{ $divelogNumber := add (sub $length $i) 49 }}
   {{ $diveTimeMinutes := math.Floor (div .dive_duration 60) }}
   {{ $diveTimeSeconds := mod .dive_duration 60 }}
+  {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
 
   {{ $pointRegion := .poi.poi_region }}
   {{ if eq $pointRegion nil }}
@@ -131,10 +133,23 @@ $(function(){
     {{ $pointRegion = "石垣島" }}
     {{ $pointName = "ヤラブ深場" }}
   {{ end }}
+  {{ if eq $divelogId "5dcc737eefd94542b3e958ee3f154f22" }}
+    {{ $divelogNumber = 214 }}
+  {{ end }}
+  {{ if eq $divelogId "7296f9eb675d4de8bcecf6983c031a74" }}
+    {{ $divelogNumber = 215 }}
+  {{ end }}
+  {{ if eq $divelogId "c4e226f3ab57448686c0d37c5ea34c75" }}
+    {{ $divelogNumber = 216 }}
+    {{ $diveDate = "2024/4/21 (Sun)" }}
+  {{ end }}
+  {{ if eq $divelogId "d4e3063eb5114329a009fc4102a1f04a" }}
+    {{ $divelogNumber = 217 }}
+    {{ $diveDate = "2024/4/21 (Sun)" }}
+  {{ end }}
   <!-- End of completion -->
 
   {{ $maxDepth := .max_depth }}
-  {{ $diveDate := .dive_datetime | int | dateFormat "2006/1/2 (Mon)" }}
 
   <div>
     <tr data-href="https://dives.dev/blog/{{ $divelogNumber }}/">
