@@ -21,7 +21,7 @@ umatare5 (Koshu T.)
 
 - umatare5 is an SRE working in Japan.
 
-  He has more than 10 years of industry experience, especially with in-depth knowledge of the networking includes wireless.
+  He has more than 15 years of industry experience, especially with in-depth knowledge of the networking includes wireless.
   He is good for realtime-processing likes packet analytics, metrics monitoring and others. He is also a backend engineer using Go and TypeScript.
 
 ---
@@ -69,7 +69,6 @@ umatare5 (Koshu T.)
 - Batch: AWS Lambda, Google Cloud Functions, Google Apps Script
 - API: Google Cloud Endpoints
 - BackOffice: Kintone, ServiceNow ITSM
-- Drawing Tool: Lucidchart
 
 ### Linux (2012-)
 
@@ -87,15 +86,14 @@ umatare5 (Koshu T.)
 - Observability: Cacti, Growthforecast, Kibana, Grafana
 - Configuration Management: Chef, Ansible
 - NoSQL: MongoDB
-- Timeseries: Elasticsearch, InfluxDB, Cortex
+- Timeseries: Elasticsearch, InfluxDB, Cortex, Mimir
 - CI/CD: Jenkins, Drone
-- Drawing Tool: Cacoo, draw.io, Google Slide
 
-### Networking (2012-2020)
+### Networking (2012-2020, 2022-)
 
 - Load Balancing: F5
 - Routing and Switching: Cisco
-- Wireless: Cisco, Meraki
+- Wireless: Cisco, Meraki, Aruba
 - Security: Cisco, Juniper Networks
 
 ### Storage (2012-2014)
@@ -104,7 +102,7 @@ umatare5 (Koshu T.)
 - iSCSI: Lefthand
 - FC: NetApp
 
-### Virtualization (2010-)
+### Virtualization (2010-2022)
 
 - Hypervisor: KVM, vSphere, Hyper-V
 - Security: vCenter SSO
@@ -126,7 +124,6 @@ umatare5 (Koshu T.)
 - Security: WSUS
 - Backup & Recovery: BackupExec
 - Batch: JP1/AJS
-- Drawing Tool: Visio
 
 ### Programming (2008-)
 
@@ -135,6 +132,11 @@ umatare5 (Koshu T.)
 - Ruby: 2.3 to 2.7 (2016-2020)
 - TypeScript: 2.2 to latest (2016-)
 - Go: 1.15 to latest (2020-)
+
+### Others (2008-)
+
+- Documentation: Lotus Notes, Word, Confluence, Notion, Google Docs
+- Drawing: Visio, Cacoo, Google Slide, draw.io, Lucidchart
 
 ---
 
