@@ -86,7 +86,7 @@ umatare5 (Koshu T.)
 - Observability: Cacti, Growthforecast, Kibana, Grafana
 - Configuration Management: Chef, Ansible
 - NoSQL: MongoDB
-- Timeseries: Elasticsearch, InfluxDB, Cortex, Mimir
+- Timeseries: RRDtool, Elasticsearch, InfluxDB, Cortex, Mimir
 - CI/CD: Jenkins, Drone
 
 ### Networking (2012-2020, 2022-)
@@ -136,7 +136,7 @@ umatare5 (Koshu T.)
 ### Others (2008-)
 
 - Documentation: Lotus Notes, Word, Confluence, Notion, Google Docs
-- Drawing: Visio, Cacoo, Google Slide, draw.io, Lucidchart
+- Drawing: Visio, PowerPoint, Cacoo, Google Slide, draw.io, Lucidchart
 
 ---
 
