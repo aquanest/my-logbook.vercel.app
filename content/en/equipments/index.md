@@ -69,7 +69,7 @@ thumbnail: "/equipments.jpg"
 
 <h2 id="accessories">Accessories</h2>
 
-- Computer: ATMOS MISSION ONE (<a href="https://www.atmos.app/missionone/">Link</a>)
+- Computer: ATMOS MISSION 3 (<a href="https://www.atmos.app/">Link</a>)
 - Vest: World Dive Weight Vest Ver.2 (<a href="https://www.amazon.co.jp/dp/B00EVEKSZI/">Link</a>)
 
 <details><summary>Used before</summary>
