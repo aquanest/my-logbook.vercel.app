@@ -26,12 +26,12 @@ thumbnail: "/equipments.jpg"
 
 - Weights
 
-  |           | Wetsuit  | Drysuit    |
-  | --------- | -------- | ---------- |
-  | BCD       | None     | 1kg \* 2   |
-  | Vest      | 1kg \* 3 | 1kg \* 5   |
-  | Ankle     | None     | 0.5kg \* 2 |
-  | **Total** | **3kg**  | **8kg**    |
+  |           | Wetsuit  | Drysuit            |
+  | --------- | -------- | ------------------ |
+  | BCD       | None     | 1kg \* 2           |
+  | Vest      | 1kg \* 3 | 1kg \* 5           |
+  | Ankle     | None     | None or 0.5kg \* 2 |
+  | **Total** | **3kg**  | **7kg or 8kg**     |
 
 - Carry Style
 
