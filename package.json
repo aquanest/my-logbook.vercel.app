@@ -16,7 +16,7 @@
     "tailwindcss": "^2.1.1"
   },
   "scripts": {
-    "postinstall": "curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.125.7/hugo_extended_0.125.7_Linux-64bit.tar.gz && tar -xzf hugo.tar.gz && mv hugo /usr/local/bin/hugo"
+    "postinstall": "curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_extended_0.122.0_Linux-64bit.tar.gz && tar -xzf hugo.tar.gz && mv hugo /usr/local/bin/hugo"
   },
   "browserslist": [
     "last 1 version",
