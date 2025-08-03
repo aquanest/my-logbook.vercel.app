@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-DefaultContentLanguageInSubdir = true
+DefaultContentLanguageInSubdir = false
 author = "umatare5"
 baseURL = "https://dives.dev"
 canonifyurls = true
@@ -11,7 +11,7 @@ title = "My Logbook"
 
 [languages]
 [languages.en]
-contentDir = "content/en" #English
+contentDir = "content" #English
 languageName = "English"
 weight = 1
 [languages.en.params]
