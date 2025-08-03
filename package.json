@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A logbook records my scuba divings.",
   "main": "index.js",
-  "repository": "https://github.com/umatare5/my-logbook.vercel.app",
+  "repository": "https://github.com/aquanest/my-logbook.vercel.app",
   "author": "umatare5",
   "license": "MIT",
   "devDependencies": {
@@ -14,6 +14,9 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1",
     "tailwindcss": "^2.1.1"
+  },
+  "scripts": {
+    "postinstall": "curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.125.7/hugo_extended_0.125.7_Linux-64bit.tar.gz && tar -xzf hugo.tar.gz && mv hugo /usr/local/bin/hugo"
   },
   "browserslist": [
     "last 1 version",
