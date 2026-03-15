@@ -42,7 +42,7 @@ thumbnail: "/equipments.jpg"
   | Shoulder | Camera #1 | Camera #2 |
 
 - Dry Suits
-  - Mobby's Size ML
+  - MOBBY's Size ML
 
 <h2 id="wears">Wears</h2>
 
