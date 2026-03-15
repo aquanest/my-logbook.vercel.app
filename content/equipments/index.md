@@ -35,15 +35,14 @@ thumbnail: "/equipments.jpg"
 
 - Carry Style
 
-  |          | Left  | Right  |
-  | -------- | ----- | ------ |
-  | Hand     | Free  | Free   |
-  | Hook     | Free  | Free   |
-  | Shoulder | GoPro | Camera |
+  |          | Left      | Right     |
+  | -------- | --------- | --------- |
+  | Hand     | Free      | Free      |
+  | Hook     | Free      | Free      |
+  | Shoulder | Camera #1 | Camera #2 |
 
 - Dry Suits
-
-  - World Dive Size ML
+  - Mobby's Size ML
 
 <h2 id="wears">Wears</h2>
 
@@ -52,20 +51,18 @@ thumbnail: "/equipments.jpg"
 - MOBBY'S Men's Warm Plus Long Pants (1mm) (<a href="https://www.mobby.co.jp/products/warm_plus_men_lp/">Link</a>)
 
   ### Drysuit Inners
-
   - World Dive Thermal Body Smoother Pullover (<a href="https://www.amazon.co.jp/dp/B00EUWJYUG">Link</a>)
   - World Dive Thermal Body Smoother Trousers (<a href="https://www.amazon.co.jp/dp/B00EUWC0ES">Link</a>)
 
   ### Others
-
   - AROPEC Neoprene Skin Boatcoat (1.7mm) (<a href="https://item.rakuten.co.jp/aqros/1000237/">Link</a>)
 
 <h2 id="gears">Gears</h2>
 
-- Fin: GULL MEW CYPHER (<a href="https://gull.kinugawa-net.co.jp/products/fins/mewcypher/">Link</a>)
-- Boots: GULL GS Boots (<a href="https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/mens/gsboots_m/">Link</a>)
-- Mask: TUSA Zensee Pro Mask (<a href="https://tusa.com/us-en/TUSA/Masks/Zensee_Pro_Mask">Link</a>)
-- Gloves: TOOLS Super Stretch Surf Gloves (<a href="https://www.amazon.co.jp/dp/B00GCYSAZU">Link</a>)
+- Fin: SCUBAPRO GO Sport Gorilla Fin (<a href="https://scubapro.johnsonoutdoors.com/us/shop/fins/go-sport-gorilla-fin">Link</a>)
+- Boots: GULL GS Boots Men's GA-5643C (<a href="https://gull.kinugawa-net.co.jp/products/boots_gloves/boots/gullstandardboots/">Link</a>)
+- Mask: TUSA Zensee Pro Mask M1010S (<a href="https://tusa.com/us-en/TUSA/Masks/Zensee_Pro_Mask">Link</a>)
+- Gloves: World Dive Mesh Gloves 1mm (<a href="https://www.amazon.co.jp/dp/B017HKL2MU">Link</a>)
 
 <h2 id="accessories">Accessories</h2>
 
@@ -84,25 +81,19 @@ thumbnail: "/equipments.jpg"
 - OM Digital Solutions OM-1 (<a href="https://jp.omsystem.com/product/dslr/om-omd/om/om1/spec.html">Link</a>) with AOI UH-OM1-BLK (<a href="http://www.fisheye-jp.com/products/uh-om1-blk.html">Link</a>)
 
   M.ZUIKO DIGITAL ED 60mm F2.8 Macro (<a href="https://jp.omsystem.com/product/lens/macro/60_28macro/index.html">Link</a>)
-
   - AOI LG-OM1-60MACRO Lens Gear (<a href="http://www.fisheye-jp.com/products/lg-om1-60macro.html">Link</a>)
   - AOI FLP-02P (<a href="http://www.fisheye-jp.com/products/flp-02p.html">Link</a>)
 
   AOI AOI-UCS-Q1-RC-BLK Ultra Compact Strobe (<a href="http://www.fisheye-jp.com/products/ucs_q1_rc.html">Link</a>)
-
   - INON Clamp 3 (<a href="http://www.inon.co.jp/products/armsystem/components.html">Link</a>)
   - INON Stick Arm SS-T (<a href="https://www.inon.co.jp/products/armsystem/arm.html">Link</a>)
   - INON Shoebase BALL (<a href="http://www.inon.co.jp/products/armsystem/shoebase.html">Link</a>)
   - INON UCL-90 M67 Close-up Lens (<a href="http://www.inon.co.jp/products/lens/ucl90m67/spec.html">Link</a>)
 
   <details><summary>Settings</summary>
-
   - **Software**
-
     - Version: 1.5
-
   - **Global Settings**
-
     - Night Live View: On
     - Object Recognition: Bird
     - Buttom Customization:
@@ -113,19 +104,14 @@ thumbnail: "/equipments.jpg"
     - Shutter Speed: 1/250
     - ISO: 200
     - f</I>/2.8 - 8.0
-
   - **Shutter Mode: Single**
-
     - AF Target: Single
     - RC Mode: On
-
   - **Shutter Mode: Drive**
-
     - AF Target: Cross
     - RC Mode: Off
 
       💡 Use Pre flash cancel mode with drive mode
-
       1. Set shutter mode to single shot
       2. Set the strobe dial to manual
       3. Boot the strobe
@@ -134,7 +120,6 @@ thumbnail: "/equipments.jpg"
       6. Change shutter mode to drive mode
 
   - **References**
-
     - [(Japanese: Feb. 2023) OM-1 is the best for underwater photograph](https://jp.omsystem.com/product/dslr/om-omd/om/om1/special/review/shimizu-jun/index.html)
     - [(Japanese: Sep. 2023) Recommended Macro Lenses and Photography Methods](https://oceana.ne.jp/diving/138887)
     - [(Japanese: Nov. 2023) Macro Shooting of Fast Moving Fishes](https://oceana.ne.jp/diving/139707)
@@ -142,29 +127,52 @@ thumbnail: "/equipments.jpg"
 
   </details>
 
-- GoPro HERO11 (<a href="https://gopro.com/en/us/shop/cameras/hero11-black/CHDHX-111-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/protective-housing-plus-waterproof-case/ADDIV-001.html">Link</a>)
+- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
 
+  <details><summary>Settings</summary>
+  - **Software:** 1.0
+  - **Defaults:**
+    - f</I>/1.8
+    - SP (Shutter Priority) mode
+  - **Picture Settings:**
+    - File Format: RAW+JPEG
+    - JPEG Quality: Fine
+    - JPEG Image Size: L (20M)
+    - Aspect Ratio: 3:2 (Standard Film)
+    - Focus Mode: Continuous AF or DMF (Single-shot AF)
+    - Focus Area: Center
+    - White Balance: Underwater Auto
+    - Flash Mode: Flash Off
+    - ISO: AUTO
+    - ISO AUTO Min. SS: 1/250 \* Means preventing high ISO
+    - AF illuminator: Off
+    - Face Prty In Mlti Mtr: Off
+    - DRO / Auto HDR: Off
+    - Regist. Faces Priority: Off
+    - Peaking Display: On \* Active when enabled DMF mode
+  - **Video Settings:**
+    - File Format: XAVC S HD
+  - **Setup:**
+    - Pwr Save Start Time: 1 Min
+
+  </details>
+
+<details><summary>Used before</summary>
+
+- GoPro HERO11 (<a href="https://gopro.com/en/us/shop/cameras/hero11-black/CHDHX-111-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/protective-housing-plus-waterproof-case/ADDIV-001.html">Link</a>)
   - INON D5 Holder (<a href="https://www.inon.co.jp/products/armsystem/d5base.html">Link</a>)
   - INON SD Front Mask for HERO9 (<a href="https://www.inon.co.jp/products/gopro/hero/sdfrontmaskhero9.html">Link</a>)
   - INON UFL-G140 SD Fish-eye Lens (<a href="https://www.inon.co.jp/products/gopro/uflg140sd.html">Link</a>)
 
-  <details><summary>Settings</summary>
-
   - **Software**
-
     - Version: v2.20
-
   - **Preferences**
-
     - Auto Power Off: 1 Min
     - Voice Control: Off
     - GPS: Off
     - Rear Screen Grid: On
-
   - **Movie Profiles**
-
     - **Common Parameters**
-
       - HyperSmooth: On
       - Scheduled Capture: Off
       - Duration: No Limit
@@ -182,21 +190,14 @@ thumbnail: "/equipments.jpg"
       - RAW Audito: Off
       - Wind: Off
       - 10-Bit: On
-
-    - **Activity Profile**
-
-      - RES / FPS: 4K 4:3 / 30
-      - Lens: SuperView
-
-    - **Full Frame Profile**
-
-      - RES / FPS: 5.3K 8:7 / 30
-      - Lens: Wide
-
+  - **Activity Profile**
+    - RES / FPS: 4K 4:3 / 30
+    - Lens: SuperView
+  - **Full Frame Profile**
+    - RES / FPS: 5.3K 8:7 / 30
+    - Lens: Wide
   - **Photo Profiles**
-
     - **Linear**
-
       - Lens: Linear
       - Output: SuperPhoto
       - Scheduled Capture: Off
@@ -210,57 +211,15 @@ thumbnail: "/equipments.jpg"
       - Sharpness: Medium
       - Color: Vibrant
 
-  </details>
-
-<details><summary>Used before</summary>
-
-- SONY DSC-RX100M5A (<a href="https://www.sony.jp/cyber-shot/products/DSC-RX100M5A/spec.html">Link</a>) with MPK-URX100A (<a href="https://www.sony.jp/cyber-shot/products/MPK-URX100A/">Link</a>)
-
-  - Software Version: 1.0
-
-  - Defaults
-
-    - f</I>/1.8
-    - SP (Shutter Priority) mode
-
-  - Picture Settings
-
-    - File Format: RAW+JPEG
-    - JPEG Quality: Fine
-    - JPEG Image Size: L (20M)
-    - Aspect Ratio: 3:2 (Standard Film)
-    - Focus Mode: Continuous AF or DMF (Single-shot AF)
-    - Focus Area: Center
-    - White Balance: Underwater Auto
-    - Flash Mode: Flash Off
-    - ISO: AUTO
-    - ISO AUTO Min. SS: 1/250 \* Means preventing high ISO
-    - AF illuminator: Off
-    - Face Prty In Mlti Mtr: Off
-    - DRO / Auto HDR: Off
-    - Regist. Faces Priority: Off
-    - Peaking Display: On \* Active when enabled DMF mode
-
-  - Video Settings
-
-    - File Format: XAVC S HD
-
-  - Setup
-
-    Pwr Save Start Time: 1 Min
-
 - GoPro HERO8 (<a href="https://gopro.com/en/us/shop/cameras/hero8-black/CHDHX-801-master.html">Link</a>) with Protective Housing (<a href="https://gopro.com/en/us/shop/mounts-accessories/hero8-black-protective-housing/AJDIV-001.html">Link</a>)
-
   - Software Version: 2.51
 
   - Preferences
-
     - Voice Control: Off
     - Screen Saver: 1 Min
     - Auto Power Off: 5 Min
 
   - Standard Profile
-
     - Resolution: 4K
     - FPS: 60
     - Lens: Wide (Default)
@@ -277,20 +236,16 @@ thumbnail: "/equipments.jpg"
     - Wind: Auto (Default)
 
 - Nikon COOLPIX W300 (<a href="https://www.nikon-image.com/products/compact/lineup/w300/spec.html">Link</a>)
-
   - Software Version: 1.5
 
   - Picture Settings
-
     - Resolution: 4608 x 3456
 
   - Movie Settings
-
     - RES/FPS: 1080/60p
     - AF Mode: AF-F
 
   - Setup Menu
-
     - Underwater Flash: ON
     - Action Control Response: 1
     - Playback Action Control: OFF
