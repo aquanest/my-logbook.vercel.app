@@ -3,7 +3,6 @@
 {{ $dataJ := getJSON "https://logbook.dives.dev/api/v1/divelogs?limit=1000" }}
 {{ $length := len $dataJ.response.divelogs }}
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script type="text/javascript">
 
   // Attach your callback function to the `window` object
