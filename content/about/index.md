@@ -19,10 +19,9 @@ umatare5 (Koshu T.)
 
 {{< social_icons >}}
 
-- umatare5 is an SRE working in Japan.
+- umatare5 is a network-focused SRE working in Japan.
 
-  He has more than 15 years of industry experience, especially with in-depth knowledge of the networking includes wireless.
-  He is good for realtime-processing likes packet analytics, metrics monitoring and others. He is also a backend engineer using Go and TypeScript.
+  He has more than 15 years of industry experience, especially with in-depth knowledge of networking including wireless. He is good at real-time processing like packet analytics, metrics monitoring and others. He is also a backend engineer using Go and TypeScript.
 
 ---
 
@@ -30,6 +29,7 @@ umatare5 (Koshu T.)
 
 ### Company #4
 
+- Infrastructure Engineer (2023/1 -)
 - Software Engineer (2022/2 -)
 
 ### Company #3
